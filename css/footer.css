@@ -1,0 +1,190 @@
+  /* 核心样式 */
+
+  .github-badge-big {
+    display: inline-block;
+    text-shadow: none;
+    font-size: 12px;
+    color: #fff;
+    line-height: 12px;
+    margin-bottom: 1px;
+    font-weight: bold;
+  }
+
+  .github-badge-big .badge-subject {
+    display: inline-block;
+    background-color: #4d4d4d;
+    padding: 4px 4px 4px 6px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 1px;
+  }
+
+  .github-badge-big .badge-value {
+    display: inline-block;
+    padding: 4px 6px 4px 4px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 1px;
+  }
+
+  .bg-1 {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+     !important;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+  }
+
+  .bg-1:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .bg-2 {
+    background-image: -webkit-linear-gradient(147deg, #FFE53B 0%, #FF2525 37%, #d71976 100%);
+    background-image: -moz-linear-gradient(147deg, #FFE53B 0%, #FF2525 37%, #d71976 100%);
+    background-image: -o-linear-gradient(147deg, #FFE53B 0%, #FF2525 37%, #d71976 100%);
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 37%, #d71976 100%);
+    ;
+     !important;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+  }
+
+  .bg-2:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  }
+
+  .bg-3 {
+    background-image: -webkit-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: -moz-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: -o-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    ;
+     !important;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+  }
+
+  .bg-3:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .bg-4 {
+    background-image: linear-gradient(90.1deg, rgba(84, 212, 228, 1) 0.2%, rgba(68, 36, 164, 1) 99.9%);
+     !important;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+  }
+
+  .bg-4:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .bg-5 {
+    background: #40E0D0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     !important;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+  }
+
+  .bg-5:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .bg-6 {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(37, 145, 251, 0.98) 0.1%, rgba(0, 7, 128, 1) 99.8%);
+     !important;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+  }
+
+  .bg-6:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .bg-7 {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+     !important;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+  }
+
+  .bg-7:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .bg-8 {
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+    !important;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+  }
+
+  .bg-8:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .bg-9 {
+    background-image: linear-gradient(to right, #3494E6 0%, #EC6EAD 51%, #3494E6 100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+  }
+
+  .bg-9:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }

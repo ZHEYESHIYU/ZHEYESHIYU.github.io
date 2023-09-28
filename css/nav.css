@@ -1,0 +1,448 @@
+/* 小冰分类分类磁铁黑夜模式适配 */
+.magnet_item {
+    margin-right: 5px !important;
+  }
+  #catalog_magnet {
+    padding: 18px 18px 0 18px !important;
+  }
+  @media screen and (max-width: 600px) {
+    .magnet_item {
+      margin-right: 0px !important;
+    }
+  }
+  /* 一般状态 */
+  [data-theme="dark"] .magnet_link_context {
+    background: #1e1e1e;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+  }
+  /* 鼠标悬浮状态 */
+  [data-theme="dark"] .magnet_link_context:hover {
+    background: #0026e4;
+    color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  #pagination .page-number.current {
+    background: #0027e4;
+    color: var(--white);
+  }
+  
+  #rightside > div > button, #rightside > div > a {
+    background-color: var(--tab-button-hover-bg);
+    color: var(--btn-color);
+  }
+
+
+  /* 侧边栏公众号 */
+/* 公众号 Start */
+
+[data-theme='light'] #aside-content .card-widget#card-wechat {
+    background: #121212 !important;
+}
+
+#aside-content .card-widget#card-wechat {
+    background: var(--card-bg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    cursor: pointer !important;
+    border: none;
+    height: 110px;
+}
+
+/* 如果你设置了aside 的 mobile 为 false，记得放开下面这段注释；
+   如果你设置了aside 的 mobile 为 true ，不需要改动。 */
+
+/* @media screen and (max-width: 768px) {
+    #aside-content .card-widget#card-wechat {
+        display: none !important;
+    }
+} */
+
+@media screen and (min-width: 1300px) {
+    #aside-content .card-widget {
+        margin-top: 1rem;
+    }
+}
+
+#flip-wrapper {
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    position: relative;
+    width: 235px;
+    height: 110px;
+    z-index: 1;
+}
+
+#flip-wrapper:hover #flip-content {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+#flip-content {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: cubic-bezier(0, 0, 0, 1.29) 0.3s;
+}
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: url(https://img.zhheo.com/i/2022/08/31/630efc6e3e794.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.back.face {
+    display: block;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    background: url(https://i.ibb.co/jJwNjMV/635e9c6a228a3.png) center center no-repeat;
+    background-size: 100%;
+}
+
+/* 公众号 End */
+
+
+/* 文章页顶部波浪css */
+.main-hero-waves-area {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -11px;
+  z-index: 5;
+}
+.waves-area .waves-svg {
+  width: 100%;
+  height: 5rem;
+}
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+  fill: #f7f9febd;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+  fill: #f7f9fe82;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+  fill: #f7f9fe36;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+  fill: #f7f9fe;
+}
+/* 黑色模式背景 */
+[data-theme="dark"] .parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+  fill: #18171dc8;
+}
+[data-theme="dark"] .parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+  fill: #18171d80;
+}
+[data-theme="dark"] .parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+  fill: #18171d3e;
+}
+[data-theme="dark"] .parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+  fill: #18171d;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves-area .waves-svg {
+    height: 40px;
+    min-height: 40px;
+  }
+}
+/* 文章页顶部波浪css */
+
+
+/* 文章卡片擦亮动画 */
+
+#recent-posts > .recent-post-item .post_cover {
+  position: relative;
+}
+#recent-posts>.recent-post-item .post_cover::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,.5);
+  content: '';
+  -webkit-transition: -webkit-transform .3s;
+  -moz-transition: -moz-transform .3s;
+  -o-transition: -o-transform .3s;
+  -ms-transition: -ms-transform .3s;
+  transition: transform .3s;
+  -webkit-transform: scale3d(2,1,1) rotate(60deg) translate3d(15%,-150%,0);
+  -moz-transform: scale3d(2,1,1) rotate(60deg) translate3d(15%,-150%,0);
+  -o-transform: scale3d(2,1,1) rotate(60deg) translate3d(15%,-150%,0);
+  -ms-transform: scale3d(2,1,1) rotate(60deg) translate3d(15%,-150%,0);
+  transform: scale3d(2,1,1) rotate(60deg) translate3d(15%,-150%,0);
+}
+#recent-posts>.recent-post-item .post_cover:hover::after {
+  -webkit-transform: scale3d(2,1,1) rotate(60deg) translate3d(0,130%,0);
+  -moz-transform: scale3d(2,1,1) rotate(60deg) translate3d(0,130%,0);
+  -o-transform: scale3d(2,1,1) rotate(60deg) translate3d(0,130%,0);
+  -ms-transform: scale3d(2,1,1) rotate(60deg) translate3d(0,130%,0);
+  transform: scale3d(2,1,1) rotate(60deg) translate3d(0,130%,0);
+}
+
+/* 文章卡片擦亮动画 */
+
+
+/* 分类目录条、标签目录条 */
+#catalog-bar {
+  padding: .4rem .8rem;
+  border-radius: var(--border-radius);
+  display: flex;
+  border: var(--card-border);
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+#catalog-bar:hover {
+  border-color: var(--main);
+}
+
+#catalog-bar i {
+  line-height: inherit;
+}
+
+#catalog-list {
+  /* 分类/标签较少时，可以选择不设置 width，居中显示 catalog-list-item */
+  /* width: 100%; */
+  margin: 0 .5rem;
+  display: flex;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+#catalog-list::-webkit-scrollbar {
+  display: none;
+}
+
+.catalog-list-item a {
+  margin: 0 .2em;
+  padding: 0.2em 0.3em 0.3em;
+  font-weight: bold;
+  border-radius: var(--border-radius);
+  color: var(--font-color);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.catalog-list-item:hover a {
+  background: var(--main);
+  color: var(--second);
+}
+
+.catalog-list-item.selected a {
+  background: var(--light-text);
+  color: var(--second);
+}
+
+a.catalog-more {
+  min-width: fit-content;
+  font-weight: bold;
+  color: var(--font-color);
+}
+
+a.catalog-more:hover {
+  color: var(--main);
+}
+
+
+
+/* 标签页标签样式 */
+
+#aside-content .card-tag-cloud a {
+  border: 1px solid;
+  line-height: 1.5;
+  border-radius: 6px;
+  margin: 3px;
+  padding: 0 5px;
+}
+
+.tag-cloud-list a {
+  border: 1px solid;
+  line-height: 1.5;
+  border-radius: 6px;
+  padding: 5px 15px;
+  font-size: 15px;
+  margin: 5px;
+}
+
+
+/* 菜单栏居中 */
+#nav-right{
+  flex:1 1 auto;
+  justify-content: flex-end;
+  margin-left: auto;
+  display: flex;
+  flex-wrap:nowrap;
+}
+
+/* 子菜单横向布局 */
+.menus_item_child li:not(#sidebar-menus li){
+  float: left;
+  border-radius: 6px!important;
+  -webkit-border-radius: 6px!important;
+  -moz-border-radius: 6px!important;
+  -ms-border-radius: 6px!important;
+  -o-border-radius: 6px!important;
+}
+.menus_item_child:not(#sidebar-menus ul){
+/*
+  left:calc(-150%)!important;这是估算值，为了保持元素居中的，如果不合适可以自己调
+改为：*/
+left:50%;
+translate:-50%;
+}
+
+/* 主页按钮 */
+#blog-info a:hover {
+  background: #0027e4;
+  transition: background .3s;
+  border-radius: 8px;
+}
+#blog-info a:hover .site-name {
+  color: #0027e4 !important;
+  position: relative;
+  text-shadow: 0 0 transparent;
+}
+#blog-info a:hover .site-name:after {
+  position: absolute;
+  display: flex;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "\f015";
+  font-family: "fontawesome" !important;
+  font-size: 15px;
+  line-height: 1;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  #blog-info a:hover {
+      background: 0;
+      transition: unset;
+      border-radius: 0;
+  }
+  #blog-info a:hover .site-name {
+      color: #0026e4 !important;
+      position: relative;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
+  }
+  #blog-info a:hover .site-name:after {
+      display: none;
+  }
+}
+/* 主页按钮 */
+
+/* 顶栏常驻 */
+.nav-fixed #nav{
+  transform: translateY(58px)!important;
+  -webkit-transform: translateY(58px)!important;
+  -moz-transform: translateY(58px)!important;
+  -ms-transform: translateY(58px)!important;
+  -o-transform: translateY(58px)!important;
+}
+#nav{
+  transition: none!important;
+  -webkit-transition: none!important;
+  -moz-transition: none!important;
+  -ms-transition: none!important;
+  -o-transition: none!important;
+}
+
+
+/* 显示标题 */
+
+/*
+2022.10.4更新：
+根据我发现的没有自适应，间距不合理问题进行调整，如果用了这个的朋友们建议改一改
+*/
+#page-name::before{
+  font-size:18px;
+  position: absolute;
+  width:100%;
+  height:100%;
+  border-radius: 8px;
+  color:white!important;
+  top:0;
+  left:0;
+  content:'回到顶部';
+  background-color: #0027e4;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  opacity: 0;
+  box-shadow: 0 0 3px #0027e4;
+  line-height: 45px; /*如果垂直位置不居中可以微调此值，也可以删了*/
+}
+#page-name:hover:before{
+  opacity: 1;
+}
+@media screen and (max-width:900px){
+  #page-name,#menus{
+    display:none!important;
+  }
+}
+
+#name-container{
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+#name-container:hover{
+  scale:1.03
+}
+#page-name{
+  position: relative;
+  padding:10px 30px/*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/
+}
+#nav{
+  padding: 0 20px;
+}
