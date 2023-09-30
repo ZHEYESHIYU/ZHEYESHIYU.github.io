@@ -937,6 +937,7 @@ p {
 div#menus {
   display: flex;
   align-items: center;
+  padding-right: 10px;
 }
 #page-header #nav .nav-button a {
   height: 35px;
@@ -1573,7 +1574,7 @@ background-size: cover;
 @media screen and (max-width: 768px) {
   #home_top {
       padding:0;
-      margin-top: 0
+      margin-top: 1.5rem
   }
 }
 
@@ -2308,15 +2309,15 @@ a.categoryButton:hover {
 
 @media screen and (max-width: 768px) {
   #category-bar {
-      border-radius:0;
+      border-radius:10px;
       background: var(--heo-background);
       margin-bottom: 0;
+      margin-top: 1.5rem;
       position: -webkit-sticky;
       position: sticky;
       z-index: 1;
-      padding: 0;
+      padding: 10px;
       height: 50px;
-      margin-top: 0;
       align-items: center
   }
 }
