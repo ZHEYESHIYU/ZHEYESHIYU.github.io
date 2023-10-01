@@ -1103,7 +1103,17 @@ ul.menus_item_child {
 }
 
 #nav div#toggle-menu {
-  padding: 2px 0 4px 6px;
+  padding: 2px 0 4px 10px;
+}
+
+.fa-random:before, .fa-shuffle:before {
+  content: "\f074";
+  font-size: 20px;
+}
+
+.fa-bus:before {
+  content: "\f207";
+  font-size: 20px;
 }
 
 #nav-totop .totopbtn i {
@@ -2960,4 +2970,92 @@ a.categoryButton:hover {
   -o-transform: scale(0.5);
 }
 
+
 /* 鼠标指针 end */
+
+
+
+/* 鼠标右键 start */
+#rightMenu{
+  display: none;
+  position: fixed;
+  width: 160px;
+  height: fit-content;
+  top: 10%;
+  left: 10%;
+  background-color: var(--shiyu-maskbgdeep);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  transform: translateZ(0);
+  border: var(--style-border);
+  border-radius: 8px;
+  z-index: 100;
+  box-shadow: var(--shiyu-shadow-black);
+  transition: border 0.3s;
+}
+#rightMenu .rightMenu-group{
+  padding: 7px 6px;
+}
+#rightMenu .rightMenu-group:not(:nth-last-child(1)){
+  border-bottom: 1px solid var(--shiyu-card-border);
+}
+#rightMenu .rightMenu-group.rightMenu-small{
+  display: flex;
+  justify-content: space-between;
+}
+#rightMenu .rightMenu-group .rightMenu-item{
+  height: 30px;
+  line-height: 30px;
+  border-radius: 8px;
+  transition: 0.3s;
+  color: var(--font-color);
+}
+#rightMenu .rightMenu-group.rightMenu-line .rightMenu-item{
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 4px;
+}
+#rightMenu .rightMenu-group .rightMenu-item:hover{
+  background-color: var(--text-bg-hover);
+}
+#rightMenu .rightMenu-group .rightMenu-item i{
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  padding: 0 5px;
+}
+#rightMenu .rightMenu-group .rightMenu-item span{
+  line-height: 30px;
+}
+
+#rightMenu .rightMenu-group.rightMenu-line .rightMenu-item *{
+  height: 40px;
+  line-height: 40px;
+}
+.rightMenu-group.hide{
+  display: none;
+}
+
+#rightMenu .rightMenu-group .rightMenu-item .icat-refresh,
+#rightMenu .rightMenu-group .rightMenu-item .icat-changing-over,
+#rightMenu .rightMenu-group .rightMenu-item .icat-simple-complex {
+  font-weight: 900;
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 右键样式 */
+
+/* 鼠标右键end */
+
+
+
