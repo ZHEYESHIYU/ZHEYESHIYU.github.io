@@ -2920,3 +2920,44 @@ a.categoryButton:hover {
 }
 
 /* 说说页 end */
+
+
+
+/* 鼠标指针 start */
+#cursor {
+  position: fixed;
+  width: 24px;
+  height: 24px;
+  /* 这里改变跟随的底色 */
+  background: rgb(165, 171, 255);
+  border-radius: 12px;
+  opacity: 0.25;
+  z-index: 10086;
+  pointer-events: none;
+  transition: 0.2s ease-in-out;
+  transition-property: background, opacity, transform;
+}
+
+#cursor.hidden {
+  opacity: 0;
+}
+
+#cursor.hover {
+  opacity: 0.1;
+  transform: scale(2.5);
+  -webkit-transform: scale(2.5);
+  -moz-transform: scale(2.5);
+  -ms-transform: scale(2.5);
+  -o-transform: scale(2.5);
+}
+
+#cursor.active {
+  opacity: 0.5;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+}
+
+/* 鼠标指针 end */
