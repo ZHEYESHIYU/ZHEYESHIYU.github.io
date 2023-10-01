@@ -217,9 +217,8 @@
 
   /* 屏幕适配 start */
   /* 宽屏适配*/
-  .layout{
+  .page .layout,.post .layout {
     max-width:1400px;
-    padding-top: 10px;
   }
   .aside-content{
       max-width:312px;
@@ -230,14 +229,14 @@
   @media screen and (max-width: 900px) {
     .layout > div:first-child {
       width: 93% !important;
-      margin: auto;
+      margin: auto !important;
     }
   }
   @media screen and (max-width: 900px){
     .aside-content{
-        max-width:none!important;
-        width: 93%;
-        margin: auto;
+        max-width:none !important;
+        width: 93% !important;
+        margin: auto !important;
     }
   }
 
@@ -1587,6 +1586,7 @@ background-size: cover;
   max-width: 1400px;
   margin: auto;
   margin-top: 0.5rem;
+  margin-bottom: -1.5rem;
   padding: 1rem;
   padding-top: 1rem;
   padding-right: 60px;
@@ -1785,7 +1785,7 @@ display: inline-block;
 text-align: left;
 line-height: 4em;
 font-weight: bold;
-font-size: 1.1rem;
+font-size: 1rem;
 color: var(--shiyu-white);
 transition: all 0.8s cubic-bezier(0.39, 0.575, 0.565, 1);
 transform: scale(1);
@@ -1816,10 +1816,10 @@ a.categoryButton {
 }
 
 a.categoryButton:after {
-top: 55px;
+top: 46px;
 width: 1.6rem;
 left: 21px;
-height: 2px;
+height: 1.4px;
 background: var(--shiyu-white);
 content: "";
 border-radius: 1px;
@@ -2342,7 +2342,7 @@ a.categoryButton:hover {
       border-radius:10px;
       background: var(--shiyu-trans);
       margin-bottom: 0;
-      margin-top: 0rem;
+      margin-top: 5px;
       position: -webkit-sticky;
       position: sticky;
       z-index: 1;
@@ -2876,9 +2876,7 @@ a.categoryButton:hover {
 
 /* 按钮组样式 */
 .banner-button-group {
-  margin-top: 20rem;
-  margin-left: 48rem;
-  position: absolute;
+  margin-top: 10px;
 }
 
 /* 响应式样式，屏幕宽度小于1300px时 */
@@ -2904,7 +2902,9 @@ a.categoryButton:hover {
   .author-content-item .card-content .banner-button-group .banner-button i {
       margin-right: 2px;
   }
+  
 }
+
 
 /* 暗色主题下的样式 */
 [data-theme="dark"] #bber .bber-music .aplayer,
