@@ -215,8 +215,8 @@
     src: url('/css/LXGWWenKaiGB-Bold.woff2') format("truetype");
   }
 
-
-  /* 宽屏适配 start */
+  /* 屏幕适配 start */
+  /* 宽屏适配*/
   .layout{
     max-width:1400px;
     padding-top: 10px;
@@ -226,9 +226,18 @@
       min-width:300px;
   }
 
+  /* 手机端主页适配*/
+  @media screen and (max-width: 900px) {
+    .layout > div:first-child {
+      width: 93% !important;
+      margin: auto;
+    }
+  }
   @media screen and (max-width: 900px){
     .aside-content{
         max-width:none!important;
+        width: 93%;
+        margin: auto;
     }
   }
 
@@ -2333,13 +2342,14 @@ a.categoryButton:hover {
       border-radius:10px;
       background: var(--shiyu-trans);
       margin-bottom: 0;
-      margin-top: 1.5rem;
+      margin-top: 0rem;
       position: -webkit-sticky;
       position: sticky;
       z-index: 1;
       padding: 10px;
       height: 50px;
-      align-items: center
+      align-items: center;
+      border: 0;
   }
 }
 
@@ -2777,7 +2787,9 @@ a.categoryButton:hover {
 
 /* 鼠标悬停时调整按钮样式 */
 #page:has(#essay_page) .author-content-item .card-content .banner-button-group .banner-button:hover {
-  font-size: 20px;
+  background: var(--shiyu-theme);
+  color: #fff;
+  font-size: 16px;
   border-radius: 10px !important;
 }
 
