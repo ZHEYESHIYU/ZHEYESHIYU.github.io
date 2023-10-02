@@ -210,9 +210,16 @@
   /* 字体 */
   @font-face {
     /*字体名称，名字可以随便起，但是注意要一致，建议英文*/
-    font-family: 'LXWK';
+    font-family: 'LXGW';
     font-display: swap;
-    src: url('/css/LXGWWenKaiGB-Bold.woff2') format("truetype");
+    src: url('https://ik.imagekit.io/shiyuzheye/%E5%AD%97%E4%BD%93/LXGWWenKaiGB-Bold.woff2') format("truetype");
+  }
+
+  @font-face {
+    /*字体名称，名字可以随便起，但是注意要一致，建议英文*/
+    font-family: 'CircularBody';
+    font-display: swap;
+    src: url('https://ik.imagekit.io/shiyuzheye/%E5%AD%97%E4%BD%93/hanchanquanyuanti.woff2?updatedAt=1696219783711') format("truetype");
   }
 
   /* 屏幕适配 start */
@@ -2936,11 +2943,11 @@ a.categoryButton:hover {
 /* 鼠标指针 start */
 #cursor {
   position: fixed;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   /* 这里改变跟随的底色 */
   background: rgb(165, 171, 255);
-  border-radius: 12px;
+  border-radius: 10px;
   opacity: 0.25;
   z-index: 10086;
   pointer-events: none;
@@ -3149,7 +3156,7 @@ a.categoryButton:hover {
 }
 #post .post-reward .reward-main .reward-all {
   border-radius: 12px;
-  background: var(--shiyu-background);
+  background: var(--anzhiyu-background);
   border: var(--style-border-always);
   padding: 0.8rem;
   display: flex;
@@ -3353,7 +3360,7 @@ img.rss-plan-icon {
     right: 26px;
     width: 122px;
     height: 25px;
-    filter: blur(2px);
+    filter: blur(0.5px);
   }
 }
 .follow-it-form-subscribe .heading {
@@ -3416,9 +3423,9 @@ img.rss-plan-icon {
 }
 /* follow样式 */
 
-/* 订阅样式 */
-
 /* 订阅页 end */
+
+
 
 /* 返回顶部 */
 
