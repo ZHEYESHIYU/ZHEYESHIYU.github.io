@@ -2982,7 +2982,11 @@ a.categoryButton:hover {
   -o-transform: scale(0.5);
 }
 
-
+@media screen and (max-width:500px) {
+  #cursor {
+      display: none !important
+  }
+}
 /* 鼠标指针 end */
 
 
@@ -3843,6 +3847,7 @@ color: var(--shiyu-white);
 /* 页数跳转按钮 end */
 
 
+
 /* 关于页start */
 /* 分割线 */
 .post-reward .reward-button {
@@ -4194,6 +4199,7 @@ color: var(--shiyu-white);
 /* 响应式 */
 
 /* icat-page顶部样式 */
+/* 关于页 end */
 
 
 
