@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hexo.yurenyiyu.top/photos/index.html</loc>
+    
+    <lastmod>2023-10-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://hexo.yurenyiyu.top/essay/index.html</loc>
+    
+    <lastmod>2023-10-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://hexo.yurenyiyu.top/link/index.html</loc>
     
     <lastmod>2023-10-03</lastmod>
@@ -77,15 +95,6 @@
     <loc>http://hexo.yurenyiyu.top/wechatOA/index.html</loc>
     
     <lastmod>2023-10-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://hexo.yurenyiyu.top/essay/index.html</loc>
-    
-    <lastmod>2023-10-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -268,13 +277,6 @@
   </url>
   
   <url>
-    <loc>http://hexo.yurenyiyu.top/tags/%F0%9F%AB%A7%E5%91%93%E8%AF%AD/</loc>
-    <lastmod>2023-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://hexo.yurenyiyu.top/tags/%F0%9F%94%98%E6%99%9A%E7%94%9F%E4%BB%A3%E4%BD%9C%E5%AE%B6%E7%A0%94%E7%A9%B6/</loc>
     <lastmod>2023-10-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -303,7 +305,21 @@
   </url>
   
   <url>
+    <loc>http://hexo.yurenyiyu.top/tags/%F0%9F%AB%A7%E5%91%93%E8%AF%AD/</loc>
+    <lastmod>2023-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://hexo.yurenyiyu.top/tags/%F0%9F%AA%84%E5%B0%8F%E8%AF%B4/</loc>
+    <lastmod>2023-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://hexo.yurenyiyu.top/tags/%F0%9F%92%AB%E8%AE%BA%E6%96%87/</loc>
     <lastmod>2023-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -323,24 +339,10 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>http://hexo.yurenyiyu.top/tags/%F0%9F%92%AB%E8%AE%BA%E6%96%87/</loc>
-    <lastmod>2023-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
     <loc>http://hexo.yurenyiyu.top/categories/%F0%9F%92%BD%E6%96%B0%E6%A6%82%E5%BF%B5/</loc>
-    <lastmod>2023-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://hexo.yurenyiyu.top/categories/%F0%9F%8C%AB%EF%B8%8F%E5%91%93%E8%AF%AD%E9%9B%86/</loc>
     <lastmod>2023-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -355,6 +357,13 @@
   
   <url>
     <loc>http://hexo.yurenyiyu.top/categories/%F0%9F%8E%B4%E8%AE%BA%E6%96%87%E5%86%8C/</loc>
+    <lastmod>2023-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://hexo.yurenyiyu.top/categories/%F0%9F%8C%AB%EF%B8%8F%E5%91%93%E8%AF%AD%E9%9B%86/</loc>
     <lastmod>2023-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
