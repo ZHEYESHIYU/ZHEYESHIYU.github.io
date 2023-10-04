@@ -4,7 +4,7 @@ var percentFlag = false; // 节流阀
 function essayScroll() {
   let a = document.documentElement.scrollTop || window.pageYOffset; // 卷去高度
   const waterfallResult = a % document.documentElement.clientHeight; // 卷去一个视口
-  result <= 99 || (result = 99);
+  waterfallResult <= 99 || (waterfallResult = 99);
 
   if (
     !percentFlag &&
@@ -25,12 +25,14 @@ function essayScroll() {
 
   let p = document.getElementById("post-comment") || document.getElementById("footer");
 
-  (p.offsetTop + p.offsetHeight / 2 < r || 90 < result) && (percentFlag = true);
+  (p.offsetTop + p.offsetHeight / 2 < r || 90 < waterfallResult) && (percentFlag = true);
 }
+
 function replaceAll(e, n, t) {
   return e.split(n).join(t);
 }
-var icat = {
+
+var icatessay = {
   diffDate: function (d, more = false) {
     const dateNow = new Date();
     const datePost = new Date(d);
@@ -41,6 +43,13 @@ var icat = {
     const month = day * 30;
 
     let result;
+    
+    // Check if the suffix object and required properties exist
+    const suffix = GLOBAL_CONFIG.date_suffix || {};
+    const daySuffix = suffix.day || '天前';
+    const hourSuffix = suffix.hour || '小时前';
+    const minSuffix = suffix.hour || '分钟前';
+
     if (more) {
       const monthCount = dateDiff / month;
       const dayCount = dateDiff / day;
@@ -50,25 +59,26 @@ var icat = {
       if (monthCount >= 1) {
         result = datePost.toLocaleDateString().replace(/\//g, "-");
       } else if (dayCount >= 1) {
-        result = parseInt(dayCount) + " " + GLOBAL_CONFIG.date_suffix.day;
+        result = parseInt(dayCount) + " " + daySuffix;
       } else if (hourCount >= 1) {
-        result = parseInt(hourCount) + " " + GLOBAL_CONFIG.date_suffix.hour;
+        result = parseInt(hourCount) + " " + hourSuffix;
       } else if (minuteCount >= 1) {
-        result = parseInt(minuteCount) + " " + GLOBAL_CONFIG.date_suffix.min;
+        result = parseInt(minuteCount) + " " + minSuffix;
       } else {
-        result = GLOBAL_CONFIG.date_suffix.just;
+        result = suffix.just;
       }
     } else {
       result = parseInt(dateDiff / day);
     }
     return result;
   },
+  
   changeTimeInEssay: function () {
-    document.querySelector("#bber") &&
-      document.querySelectorAll("#bber time").forEach(function (e) {
+    document.querySelector("#icat-bber") &&
+      document.querySelectorAll("#icat-bber time").forEach(function (e) {
         var t = e,
           datetime = t.getAttribute("datetime");
-        (t.innerText = icat.diffDate(datetime, true)), (t.style.display = "inline");
+        (t.innerText = icatessay.diffDate(datetime, true)), (t.style.display = "inline");
       });
   },
   reflashEssayWaterFall: function () {
@@ -94,71 +104,6 @@ var icat = {
   },
 };
 
-icat.changeTimeInEssay();
-icat.reflashEssayWaterFall();
-
-
-//瀑布流
-
-function waterfall(a) {
-  function b(a, b) {
-    var c = window.getComputedStyle(b);
-    return parseFloat(c["margin" + a]) || 0;
-  }
-  function c(a) {
-    return a + "px";
-  }
-  function d(a) {
-    return parseFloat(a.style.top);
-  }
-  function e(a) {
-    return parseFloat(a.style.left);
-  }
-  function f(a) {
-    return a.clientWidth;
-  }
-  function g(a) {
-    return a.clientHeight;
-  }
-  function h(a) {
-    return d(a) + g(a) + b("Bottom", a);
-  }
-  function i(a) {
-    return e(a) + f(a) + b("Right", a);
-  }
-  function j(a) {
-    a = a.sort(function (a, b) {
-      return h(a) === h(b) ? e(b) - e(a) : h(b) - h(a);
-    });
-  }
-  function k(b) {
-    f(a) != t && (b.target.removeEventListener(b.type, arguments.callee), waterfall(a));
-  }
-  "string" == typeof a && (a = document.querySelector(a));
-  var l = [].map.call(a.children, function (a) {
-    return (a.style.position = "absolute"), a;
-  });
-  a.style.position = "relative";
-  var m = [];
-  l.length && ((l[0].style.top = "0px"), (l[0].style.left = c(b("Left", l[0]))), m.push(l[0]));
-  for (var n = 1; n < l.length; n++) {
-    var o = l[n - 1],
-      p = l[n],
-      q = i(o) + f(p) <= f(a);
-    if (!q) break;
-    (p.style.top = o.style.top), (p.style.left = c(i(o) + b("Left", p))), m.push(p);
-  }
-  for (; n < l.length; n++) {
-    j(m);
-    var p = l[n],
-      r = m.pop();
-    (p.style.top = c(h(r) + b("Top", p))), (p.style.left = c(e(r))), m.push(p);
-  }
-  j(m);
-  var s = m[0];
-  a.style.height = c(h(s) + b("Bottom", s));
-  var t = f(a);
-  window.addEventListener ? window.addEventListener("resize", k) : (document.body.onresize = k);
-}
-//瀑布流 end
-
+icatessay.changeTimeInEssay();
+icatessay.reflashEssayWaterFall();
+// 即刻短文处理逻辑

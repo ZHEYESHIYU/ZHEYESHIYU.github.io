@@ -1,5 +1,4 @@
 /* 色彩 */
-
 :root {
     --shiyu-white: #fff;
     --shiyu-white-op: rgba(255, 255, 255, 0.2);
@@ -2501,61 +2500,73 @@ a.categoryButton:hover {
 
 /* 说说页 start */
 
-/* 下面的代码块是用于特定页面的样式重置和设置 */
-#page:has(#essay_page) {
-  border: 0; /* 移除边框 */
-  box-shadow: none !important; /* 移除阴影，!important确保覆盖其他样式 */
-  padding: 0 !important; /* 移除内边距，!important确保覆盖其他样式 */
-  background: transparent !important; /* 设置背景为透明，!important确保覆盖其他样式 */
-}
-
-/* 隐藏特定页面的标题 */
-#page:has(#essay_page) .page-title {
-  display: none;
-}
-
-/* 给特定页面的背景添加颜色 */
-#web_bg ~ .page:has(#essay_page) {
-  background: var(--shiyu-card-bg);
-}
-
-/* 下面的代码块是用于图像容器的样式 */
-#bber .bber-container-img {
-  display: flex; /* 使用弹性盒子布局 */
-  align-items: center;
-  justify-content: space-around;
+#icat-bber {
+  margin-top: 1.5rem;
   width: 100%;
-  flex-wrap: wrap;
-  margin-bottom: 0.3rem;
 }
-
-/* 设置没有图像的容器宽度 */
-#bber .bber-container-img .bber-content-noimg {
-  width: calc(100% / 4 - 5px);
-}
-
-/* 下面的代码块是用于图像样式的设置 */
-#bber .bber-content-img img {
-  object-fit: cover; /* 图像填充容器并保持宽高比 */
-  max-height: 100%;
-  border-radius: 12px; /* 圆角边框 */
-}
-
-#bber .bber-content-img {
-  height: 100px;
-  border-radius: 12px;
-  overflow: hidden;
+#icat-bber #waterfall.list {
   display: flex;
-  position: relative;
-  margin-bottom: 10px;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
+#icat-bber .icat-timeline #waterfall {
+  opacity: 0;
+  transition: .3s;
+}
+#icat-bber .icat-timeline #waterfall.show {
+  opacity: 1;
+}
+#icat-bber .icat-timeline #waterfall .icat-bber-item {
+  position: relative;
+  width: 32%;
+  border: var(--style-border-always);
+  border-radius: 12px;
+  padding: 1rem 1rem 0.9rem;
+  transition: all 0.3s ease 0s;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: var(--icat-card-bg);
+  box-shadow: var(--icat-shadow-border);
+  margin-right: 2%;
+  animation: slide-in .6s .4s backwards;
+}
+#icat-bber > section > #waterfall > .icat-bber-item {
+  margin-bottom: 1rem;
+}
+#icat-bber .icat-timeline #waterfall .icat-bber-item:hover {
+  border: var(--style-border-hover);
+}
+@media screen and (max-width: 1300px) {
+  #icat-bber .icat-timeline #waterfall .icat-bber-item {
+    width: 49%;
+    margin-right: 1%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #icat-bber .icat-timeline #waterfall .icat-bber-item {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+/* 响应式 */
 
-/* 下面的代码块是用于数据内容的样式 */
-#bber .bber-content .datacont {
+#icat-bber div.icat-bber-content {
+  display: flex;
+  flex-flow: wrap;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+#icat-bber p {
+  margin: 0px;
+}
+#icat-bber .icat-bber-content .datacont {
   order: 0;
   font-size: 0.8rem;
   font-weight: 700;
-  color: var(--shiyu-fontcolor);
+  color: var(--icat-fontcolor);
   width: 100%;
   line-height: 1.38;
   border-radius: 12px;
@@ -2565,132 +2576,151 @@ a.categoryButton:hover {
   text-align: justify;
   padding: 0px 8px;
 }
-
-#bber p {
-  margin: 0px; /* 移除段落的外边距 */
-}
-
-/* 下面的代码块是用于内容容器的样式 */
-#bber div.bber-content {
+#icat-bber .icat-bber-container-img {
   display: flex;
-  flex-flow: wrap;
-  border-radius: 12px;
+  gap: 8px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  padding-left: 8px;
+}
+#icat-bber .icat-bber-container-img .imgbox {
+  width: calc(100% / 4 - 8px);
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 6px;
+}
+#icat-bber .icat-bber-container-img .imgbox .icat-bber-content-img {
+  height: 100px;
+  display: flex;
+  position: relative;
+}
+#icat-bber .icat-bber-container-img .imgbox .icat-bber-content-img img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  border-radius: 6px;
+  animation: slide-in .6s .4s backwards;
+}
+#icat-bber .icat-bber-video {
+  position: relative;
+  padding: 30% 50%;
+  margin-bottom: 10px
+}
+#icat-bber .icat-bber-video video,
+#icat-bber .icat-bber-video iframe {
+  position: absolute;
   width: 100%;
   height: 100%;
-}
-
-/* 下面的代码块是用于时间线样式的设置 */
-#bber .timeline ul li.bber-item {
-  position: relative;
-  width: 32%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  border-radius: 6px;
   border: var(--style-border);
-  border-radius: 12px;
-  padding: 1rem 1rem 0.5rem;
-  transition: all 0.3s ease 0s;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  background: var(--shiyu-trans);
-  box-shadow: 0 8px 16px 4px #2c2d300c;
-  margin-right: 2%;
 }
-
-/* 显示时间线 */
-#bber .timeline #waterfall.show {
-  opacity: 1;
-}
-
-/* 隐藏时间线 */
-#bber .timeline #waterfall {
-  opacity: 0;
-  transition: all 0.3s ease 0s;
-}
-
-/* 下面的代码块是用于列表样式的设置 */
-#bber ul.list {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-/* 下面的代码块是用于整体容器的样式 */
-#bber {
-  margin-top: 1rem;
+#icat-bber .icat-bber-music {
   width: 100%;
+  height: 90px;
+  margin: 0 0 0.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  border: var(--style-border-always);
+  background: var(--icat-secondbg);
 }
-
-/* 下面的代码块是用于单个项目的样式 */
-#bber > section > ul > li.bber-item {
-  margin-bottom: 1rem;
+#icat-bber .aplayer {
+  margin: 0;
 }
-
-/* 下面的代码块是用于提示文本样式的设置 */
-#bber-tips {
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
+#icat-bber .aplayer.aplayer-withlrc .aplayer-pic {
+  height: 82px;
+  width: 82px;
+  margin: 4px;
+  border-radius: 4px;
 }
-
-/* 下面的代码块是用于水平线样式的设置 */
-#bber .timeline ul li.bber-item hr {
+.icat-bber-music .aplayer.aplayer-withlrc .aplayer-info {
+  padding: 5px 7px 0;
+}
+#icat-bber .aplayer .aplayer-info .aplayer-music {
+  height: 23px;
+  text-align: center;
+}
+#icat-bber .aplayer .aplayer-info .aplayer-music .aplayer-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--icat-fontcolor);
+}
+#icat-bber .aplayer .aplayer-info .aplayer-controller {
+  align-items: center;
+}
+#icat-bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {
+  padding: 0;
+}
+#icat-bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
+  position: initial;
+}
+#icat-bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
+  background: var(--icat-gray);
+  height: 8px;
+  border-radius: 12px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+#icat-bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
+  height: 100%;
+  border-radius: 12px;
+}
+#icat-bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
+  height: 100%;
+  border-radius: 12px;
+}
+#icat-bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {
+  display: none;
+}
+#icat-bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
+  position: initial;
+}
+#icat-bber .aplayer .aplayer-lrc p {
+  color: var(--icat-fontcolor);
+}
+#icat-bber .icat-timeline #waterfall .icat-bber-item hr {
   display: flex;
   position: relative;
   margin: 8px 0px;
-  border: var(--style-border);
+  border: 1px dashed var(--icat-blue);
   width: 100%;
+  opacity: 0.4;
 }
-
-/* 下面的代码块是用于信息样式的设置 */
-#bber .bber-info {
-  display: flex;
-}
-
-/* 下面的代码块是用于信息中的时间和来源样式的设置 */
-#bber > section > ul > li > div .bber-info-time,
-#bber > section > ul > li > div .bber-info-from {
-  color: var(--shiyu-fontcolor);
-  font-size: 0.7rem;
-  background-color: var(--shiyu-secondbg);
-  padding: 0px 8px;
-  border-radius: 20px;
-  cursor: default;
-  display: flex;
-  align-items: center;
-  padding-right: 10px;
-}
-
-/* 调整时间图标的样式 */
-#bber > section > ul > li > div .bber-info-time > i {
-  padding-right: 2px;
-}
-
-#bber .bber-info .far.fa-clock {
-  margin-right: 4px;
-}
-
-/* 调整来源样式 */
-#bber > section > ul > li > div .bber-info-from span,
-#bber > section > ul > li > div .bber-info-from {
-  margin-left: 4px;
-}
-
-/* 下面的代码块是用于底部内容的样式 */
-#bber .bber-bottom {
+#icat-bber .icat-bber-bottom {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 10px;
 }
-
-/* 鼠标悬停时高亮显示项目 */
-#bber .timeline ul li.bber-item:hover {
-  border: var(--style-border-hover);
+#icat-bber .icat-bber-info {
+  display: flex;
 }
-
-/* 下面的代码块是用于内容链接的样式 */
-#bber .bber-content-link {
+#icat-bber > section > #waterfall > .icat-bber-item > div .icat-bber-info-time,
+#icat-bber > section > #waterfall > .icat-bber-item > div .icat-bber-info-from {
+  color: var(--icat-fontcolor);
+  font-size: 0.7rem;
+  background-color: var(--icat-gray-op);
+  padding: 0px 8px;
+  border-radius: 20px;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  padding-right: 12px;
+}
+#icat-bber > section > #waterfall > .icat-bber-item > div .icat-bber-info-time > i {
+  padding-right: 4px;
+}
+#icat-bber > section > #waterfall > .icat-bber-item > div .icat-bber-info-from {
+  margin-left: 0.5rem;
+}
+#icat-bber > section > #waterfall > .icat-bber-item > div .icat-bber-info-from span {
+  margin-left: 0.35rem;
+}
+#icat-bber .icat-bber-content-link {
   display: flex;
   margin-left: 0.5rem;
   font-size: 0.7rem;
@@ -2701,236 +2731,142 @@ a.categoryButton:hover {
   border-radius: 20px;
   padding-right: 10px;
 }
-
-#bber .bber-content-link i {
-  margin-right: 3px;
-}
-
-/* 鼠标悬停时高亮显示链接 */
-#bber .bber-content-link:hover {
-  background-color: #0027E4;
-  color: #ffffff;
-}
-
-/* 下面的代码块是用于音乐播放器的样式 */
-#bber .bber-music {
-  width: 100%;
-  height: 90px;
-  margin: 0.5rem 0;
-  border-radius: 8px;
-  overflow: hidden;
-  border: var(--shiyu-background);
-  background: var(--shiyu-essay-secondbg);
-}
-
-#bber .aplayer {
-  margin: 0;
-}
-
-/* 调整音乐播放器的样式 */
-#bber .aplayer.aplayer-withlrc .aplayer-pic {
-  height: 82px;
-  width: 82px;
-  margin: 4px;
-  border-radius: 4px;
-}
-
-.bber-music .aplayer.aplayer-withlrc .aplayer-info {
-  padding: 5px 7px 0;
-}
-
-#bber .aplayer .aplayer-info .aplayer-music {
-  height: 23px;
-}
-
-#bber .aplayer .aplayer-info .aplayer-music .aplayer-title {
-  font-size: 0.8rem;
-  font-weight: 700;
-  margin: 0;
-  color: var(--shiyu-fontcolor);
-}
-
-/* 调整音乐播放器控制器的样式 */
-#bber .aplayer .aplayer-info .aplayer-controller {
-  align-items: center;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {
-  padding: 0;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
-  position: initial;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
-  background: var(--shiyu-background);
-  height: 8px;
-  border-radius: 12px;
-  transition: 0.3s;
-  overflow: hidden;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
-  height: 100%;
-  border-radius: 12px;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
-  height: 100%;
-  border-radius: 12px;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {
-  display: none;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
-  position: initial;
-}
-
-/* 作者内容的样式 */
-.author-content.author-content-item.essayPage {
-  height: 25rem;
-  background: url(https://i.ibb.co/f9X6PVz/IMG-20221206-104437.jpg) left 30% / cover no-repeat; /* 设置背景图片 */
-  color: var(--shiyu-white); /* 文字颜色 */
-  overflow: hidden;
-  margin-top: 0px;
-  border-radius: 8px;
-}
-
-/* 鼠标悬停时调整按钮样式 */
-#page:has(#essay_page) .author-content-item .card-content .banner-button-group .banner-button:hover {
-  background: var(--shiyu-theme);
-  color: #fff;
-  font-size: 16px;
-  border-radius: 10px !important;
-}
-
-/* 作者内容的卡片样式 */
-.author-content-item .card-content {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 2rem;
-}
-
-/* 作者内容的提示文本样式 */
-.author-content-item .author-content-item-tips {
-  opacity: .8;
-  font-size: .6rem;
-  margin-bottom: 0.5rem;
-}
-
-/* 作者内容的标题样式 */
-.author-content-item .card-content .author-content-item-title {
-  margin-bottom: 0.5rem;
-}
-
-/* 作者内容的标题样式 */
-.author-content-item .author-content-item-title {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1;
-}
-
-/* 作者内容的底部样式 */
-.author-content-item .content-bottom {
-    margin-top: auto;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: box;
-    display: flex;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    -o-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -moz-box-pack: justify;
-    -o-box-pack: justify;
-    -ms-flex-pack: justify;
-    -webkit-justify-content: space-between;
-    justify-content: space-between
-}
-
-/* 作者内容的按钮样式 */
-.author-content-item .card-content .banner-button-group .banner-button {
-  height: 40px;
-  width: 124px;
-  border-radius: 10px;
-  justify-content: center;
-  background: #f5f5f5;
-  color: #000000;
-  display: flex;
-  align-items: center;
-  z-index: 1;
-  transition: .3s;
-  cursor: pointer;
-  border-bottom: 0!important;
-}
-
-/* 调整按钮中的图标样式 */
-.author-content-item .card-content .banner-button-group .banner-button i {
+#icat-bber .icat-bber-content-link i {
   margin-right: 4px;
-  font-size: 1rem;
+}
+#icat-bber .icat-bber-content-link:hover {
+  background-color: var(--icat-main);
+  color: var(--icat-white);
+}
+#icat-bber-tips {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
-/* 调整按钮文字样式 */
-.banner-button-text {
-  padding-right: 5px;
+[data-theme="dark"] #icat-bber .icat-timeline #waterfall .icat-bber-item hr {
+  opacity: 0.2;
+}
+[data-theme="dark"] #icat-bber .icat-bber-music .aplayer,
+[data-theme="dark"] #icat-bber .aplayer .aplayer-lrc:before,
+[data-theme="dark"] #icat-bber .aplayer .aplayer-lrc:after {
+  background: var(--icat-card-bg);
+  color: var(--icat-fontcolor);
+}
+:root {
+  --icat-white: #fff;
+  --icat-white-op: rgba(255, 255, 255, 0.2);
+  --icat-black: #000;
+  --icat-black-op: rgba(0, 0, 0, 0.2);
+  --icat-none: #00000000;
+  --icat-gray: #999999;
+  --icat-gray-op: #9999992b;
+  --icat-vip: #e5a80d;
+  --icat-main: var(--icat-theme);
+  --icat-main-op: var(--icat-theme-op);
+  --icat-main-op-deep: var(--icat-theme-op-deep);
+  --icat-main-op-light: var(--icat-theme-op-light);
+  --icat-main-none: var(--icat-theme-none);
+  --icat-shadow-theme: 0 8px 12px -3px var(--icat-theme-op);
+  --icat-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0, .15);
+  --icat-shadow-main: 0 8px 12px -3px var(--icat-main-op);
+  --icat-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, .20);
+  --icat-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, .20);
+  --icat-shadow-black: 0 0 12px 4px rgba(0, 0, 0, .05);
+  --icat-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, .12);
+  --icat-shadow-red: 0 8px 12px -3px #ee7d7936;
+  --icat-shadow-green: 0 8px 12px -3px #87ee7936;
+  --icat-logo-color: linear-gradient(215deg, #4584ff 0%, #cf0db9 100%);
+  --icat-snackbar-time: 5s;
+  --style-border-hover-always: 1px solid var(--icat-blue)
 }
 
-/* 按钮组样式 */
-.banner-button-group {
-  margin-top: 10px;
+[data-theme=light] {
+  --icat-theme: #425AEF;
+  --icat-theme-op: #4259ef23;
+  --icat-theme-op-deep: #4259efdd;
+  --icat-theme-op-light: #4259ef0d;
+  --icat-theme-none: #4259ef01;
+  --icat-blue: #425AEF;
+  --icat-red: #f04a63;
+  --icat-pink: #FF7C7C;
+  --icat-green: #57bd6a;
+  --icat-yellow: #c28b00;
+  --icat-yellow-op: #d99c001a;
+  --icat-orange: #e38100;
+  --icat-shadow-orange: 0 8px 12px -3px rgba(227, 129, 0, .2);
+  --icat-purple: #7a60d2;
+  --icat-fontcolor: #363636;
+  --icat-background: #f7f9fe;
+  --icat-reverse: #000;
+  --icat-maskbg: rgba(255, 255, 255, 0.6);
+  --icat-maskbgdeep: rgba(255, 255, 255, 0.85);
+  --icat-hovertext: var(--icat-main);
+  --icat-ahoverbg: #F7F7FA;
+  --icat-lighttext: var(--icat-main);
+  --icat-secondtext: rgba(60, 60, 67, 0.8);
+  --icat-scrollbar: rgba(60, 60, 67, 0.4);
+  --icat-card-btn-bg: #edf0f7;
+  --icat-post-blockquote-bg: #fafcff;
+  --icat-post-tabs-bg: #f2f5f8;
+  --icat-secondbg: #f7f7f9;
+  --icat-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+  --icat-card-bg: #fff;
+  --icat-card-bg-op: var(--icat-black-op);
+  --icat-card-bg-none: rgba(255, 255, 255, 0);
+  --icat-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0.00);
+  --icat-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0.00);
+  --icat-card-border: #e3e8f7;
+  --icat-shadow-border: 0 8px 16px -4px #2c2d300c;
+  --icat-tabs-background: #49B1F5;
+  --style-border: 1px solid var(--icat-card-border);
+  --style-border-hover: 1px solid var(--icat-main);
+  --style-border-dashed: 1px dashed var(--icat-theme-op);
+  --style-border-forever: 2px solid var(--icat-main)
 }
 
-/* 响应式样式，屏幕宽度小于1300px时 */
-@media screen and (max-width: 1300px) {
-  #bber .timeline ul li.bber-item {
-      width: 49%;
-      margin-right: 1%;
-  }
-}
-
-/* 响应式样式，屏幕宽度小于768px时 */
-@media screen and (max-width: 768px) {
-  #bber .timeline ul li.bber-item {
-      width: 100%;
-      margin-right: 0px;
-  }
-
-  /* 调整按钮宽度和图标大小 */
-  .author-content-item .card-content .banner-button-group .banner-button {
-      width: 40px;
-  }
-
-  .author-content-item .card-content .banner-button-group .banner-button i {
-      margin-right: 2px;
-  }
-  
-}
-
-
-/* 暗色主题下的样式 */
-[data-theme="dark"] #bber .bber-music .aplayer,
-[data-theme="dark"] #bber .aplayer .aplayer-lrc:before,
-[data-theme="dark"] #bber .aplayer .aplayer-lrc:after {
-  background: #171717;
-  color: #000000;
-}
-
-/* 调整音乐歌词颜色 */
-#bber .aplayer .aplayer-lrc p {
-  color: #000000;
+[data-theme=dark] {
+  --icat-theme: #f2b94b;
+  --icat-theme-op: #f2b94b23;
+  --icat-theme-op-deep: #f2b94bdd;
+  --icat-theme-none: #f2b94b00;
+  --icat-blue: #0084FF;
+  --icat-red: #FF3842;
+  --icat-pink: #d44040;
+  --icat-green: #3e9f50;
+  --icat-purple: #7a60d2;
+  --icat-yellow: #ffc93e;
+  --icat-yellow-op: #ffc93e30;
+  --icat-orange: #ff953e;
+  --icat-shadow-orange: 0 8px 12px -3px rgba(255, 149, 62, .2);
+  --icat-fontcolor: #F7F7FA;
+  --icat-background: #18171d;
+  --icat-reverse: #fff;
+  --icat-maskbg: rgba(0, 0, 0, 0.6);
+  --icat-maskbgdeep: rgba(0, 0, 0, 0.85);
+  --icat-hovertext: #0A84FF;
+  --icat-ahoverbg: #fff;
+  --icat-lighttext: var(--icat-theme);
+  --icat-secondtext: #a1a2b8;
+  --icat-scrollbar: rgba(200, 200, 223, 0.4);
+  --icat-card-btn-bg: #30343f;
+  --icat-post-blockquote-bg: #000;
+  --icat-post-tabs-bg: #121212;
+  --icat-secondbg: #21232a;
+  --icat-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+  --icat-card-bg: #1b1c20;
+  --icat-card-bg-op: var(--icat-white-op);
+  --icat-card-bg-none: #1d1b2600;
+  --icat-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0.0);
+  --icat-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0.0);
+  --icat-card-border: #3d3d3f;
+  --icat-shadow-border: 0 8px 16px -4px #00000050;
+  --icat-tabs-background: #81d8cf;
+  --style-border: 1px solid var(--icat-card-border);
+  --style-border-hover: 1px solid var(--icat-theme);
+  --style-border-dashed: 1px dashed var(--icat-theme-op);
+  --style-border-forever: 2px solid var(--icat-lighttext)
 }
 
 /* 说说页 end */
@@ -4236,58 +4172,337 @@ button {
 /* 友链添加结束 end */
 
 
-/* 评论区输入提示start */
-/* 设置文字内容 :nth-child(1)的作用是选择第几个 */
-.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before {
-  content: '输入QQ号会自动获取您的QQ昵称和头像🐧';
+
+
+/* 外挂标签美化 start */
+/* Table分栏美化 */
+#article-container .tabs {
+  position: relative;
+  margin: 1rem 0;
+  border: 3px solid var(--shiyu-secondbg);
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-box-shadow: var(--shiyu-shadow-border);
+  box-shadow: var(--shiyu-shadow-border);
+  padding: 10px;
+  background: var(--shiyu-card-bg)
 }
 
-.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(2):before {
-  content: '收到回复将会发送到您的邮箱📧';
+#article-container .tabs:hover {
+  border: 3px solid var(--shiyu-blue)
 }
 
-.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(3):before {
-  content: '可以通过昵称访问您的网站🔗';
+#article-container .tabs>.nav-tabs {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 12px 16px;
+  background: var(--shiyu-background);
+  border: 2px solid var(--shiyu-secondbg);
+  border-radius: 6px;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  transition: .3s
 }
 
-/* 当用户点击输入框时显示 */
-.el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::before,
-.el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::after {
+#article-container .tabs>.nav-tabs:hover {
+  border: 2px solid var(--shiyu-blue)
+}
+
+#article-container .tabs>.nav-tabs>.tab {
+  margin: 0;
+  padding: 3px;
+  list-style: none
+}
+
+@media screen and (max-width: 768px) {
+  #article-container .tabs>.nav-tabs>.tab {
+      -webkit-box-flex:1;
+      -moz-box-flex: 1;
+      -o-box-flex: 1;
+      -ms-box-flex: 1;
+      box-flex: 1;
+      -webkit-flex-grow: 1;
+      flex-grow: 1
+  }
+}
+
+#article-container .tabs>.nav-tabs>.tab button {
   display: block;
+  padding: 8px 18px;
+  width: 100%;
+  border: 1px solid var(--shiyu-secondbg);
+  background: var(--shiyu-background);
+  color: var(--tab-botton-color);
+  line-height: 2;
+  -webkit-transition: all .6s;
+  -moz-transition: all .6s;
+  -o-transition: all .6s;
+  -ms-transition: all .6s;
+  transition: all .6s;
+  border-radius: 6px;
+  font-weight: 600;
+  -webkit-box-shadow: var(--shiyu-shadow-border);
+  box-shadow: var(--shiyu-shadow-border)
 }
 
-/* 主内容区 */
-.el-input.el-input--small.el-input-group.el-input-group--prepend::before {
-  /* 先隐藏起来 */
-  display: none;
-  /* 绝对定位 */
-  position: absolute;
-  /* 向上移动60像素 */
-  top: -60px;
-  /* 文字强制不换行，防止left:50%导致的文字换行 */
-  white-space: nowrap;
-  /* 圆角 */
-  border-radius: 10px;
-  /* 距离左边50% */
-  left: 50%;
-  /* 然后再向左边挪动自身的一半，即可实现居中 */
-  transform: translate(-50%);
-  /* 填充 */
-  padding: 14px 18px;
-  background: #444;
-  color: #fff;
+#article-container .tabs>.nav-tabs>.tab button i {
+  width: 1.5em
 }
 
-/* 小角标 */
-.el-input.el-input--small.el-input-group.el-input-group--prepend::after {
-  display: none;
-  content: '';
-  position: absolute;
-  /* 内容大小（宽高）为0且边框大小不为0的情况下，每一条边（4个边）都是一个三角形，组成一个正方形。
-  我们先将所有边框透明，再给其中的一条边添加颜色就可以实现小三角图标 */
-  border: 12px solid transparent;
-  border-top-color: #444;
-  left: 50%;
-  transform: translate(-50%, -48px);
+#article-container .tabs>.nav-tabs>.tab.active button {
+  background: #0027E4;
+  cursor: default;
+  color: var(--tab-button-active-bg);
+  -webkit-box-shadow: 0 4px 12px -4px rgba(129,216,207,.314);
+  box-shadow: 0 4px 12px -4px rgba(129,216,207,.314)
 }
-/* 评论区输入提示 end */
+
+#article-container .tabs>.nav-tabs>.tab:not(.active) button:hover {
+  background: var(--tab-button-hover-bg)
+}
+
+#article-container .tabs>.tab-contents .tab-item-content {
+  position: relative;
+  display: none;
+  padding: 36px 24px
+}
+
+@media screen and (max-width: 768px) {
+  #article-container .tabs>.tab-contents .tab-item-content {
+      padding:24px 14px
+  }
+}
+
+#article-container .tabs>.tab-contents .tab-item-content.active {
+  display: block;
+  -webkit-animation: tabshow .5s;
+  -moz-animation: tabshow .5s;
+  -o-animation: tabshow .5s;
+  -ms-animation: tabshow .5s;
+  animation: tabshow .5s
+}
+
+#article-container .tabs .tab-to-top {
+  position: relative;
+  display: block;
+  margin: 0 0 0 auto;
+  color: #99a9bf;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  padding-bottom: 16px;
+  -webkit-transition: .6s;
+  -moz-transition: .6s;
+  -o-transition: .6s;
+  -ms-transition: .6s;
+  transition: .6s
+}
+
+#article-container .tabs .tab-to-top:hover {
+  color: var(--shiyu-blue)
+}
+
+@-moz-keyframes tabshow {
+  0% {
+      -webkit-transform: translateY(15px);
+      -moz-transform: translateY(15px);
+      -o-transform: translateY(15px);
+      -ms-transform: translateY(15px);
+      transform: translateY(15px)
+  }
+
+  100% {
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -o-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0)
+  }
+}
+
+@-webkit-keyframes tabshow {
+  0% {
+      -webkit-transform: translateY(15px);
+      -moz-transform: translateY(15px);
+      -o-transform: translateY(15px);
+      -ms-transform: translateY(15px);
+      transform: translateY(15px)
+  }
+
+  100% {
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -o-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0)
+  }
+}
+
+@-o-keyframes tabshow {
+  0% {
+      -webkit-transform: translateY(15px);
+      -moz-transform: translateY(15px);
+      -o-transform: translateY(15px);
+      -ms-transform: translateY(15px);
+      transform: translateY(15px)
+  }
+
+  100% {
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -o-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0)
+  }
+}
+
+@keyframes tabshow {
+  0% {
+      -webkit-transform: translateY(15px);
+      -moz-transform: translateY(15px);
+      -o-transform: translateY(15px);
+      -ms-transform: translateY(15px);
+      transform: translateY(15px)
+  }
+
+  100% {
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -o-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0)
+  }
+}
+
+/* Table分栏美化 */
+
+blockquote {
+  border-left: 2px solid #0027E4;
+  background-color: var(--shiyu-secondbg);
+  color: var(--shiyu-secondtext);
+  border-radius: 8px;
+  margin: 1rem 0;
+  padding: 0.9rem 1.2rem;
+}
+
+/* 引用块美化 */
+
+.note {
+  border-radius: 8px;
+}
+.note.flat {
+  border-left: 3px solid #eee;
+}
+
+/* note块圆角调整 */
+
+#article-container figure.highlight {
+  border-radius: 8px;
+}
+
+/* 代码块圆角调整 */
+
+/* 外挂标签美化 end */
+
+
+
+
+/* 相册页 start */
+.gallery-photos {
+	width:100%;
+	margin-top:16px;
+    text-align: center;
+}
+.gallery-photo {
+	min-height:5rem;
+	width:24.99%;
+	padding:4px;
+	position:relative;
+}
+.gallery-photo a {
+	border-radius:8px;
+  border: var(--style-border-always);
+  box-shadow: var(--shiyu-shadow-border);
+	display:block;
+	overflow:hidden;
+}
+.gallery-photo img {
+	display:block;
+	width:100%;
+	animation:fadeIn 1s;
+	cursor:pointer;
+	transition:all .4s ease-in-out !important;
+}
+.gallery-photo span.photo-title,.gallery-photo span.photo-time {
+	max-width:calc(100% - 7px);
+	line-height:1.8;
+	position:absolute;
+	left:4px;
+	font-size:14px;
+	background:rgba(0,0,0,0.3);
+	padding:0px 8px;
+	color:#fff;
+	animation:fadeIn 1s;
+}
+.gallery-photo span.photo-title {
+	bottom:4px;
+	border-radius:0 8px 0 8px;
+}
+.gallery-photo span.photo-time {
+	top:4px;
+	border-radius:8px 0 8px 0;
+}
+.gallery-photo:hover img {
+	transform:scale(1.1);
+}
+@media screen and (max-width:1100px) {
+	.gallery-photo {
+	width:33.3%;
+}
+}@media screen and (max-width:768px) {
+	.gallery-photo {
+	width:49.9%;
+	padding:3px
+}
+/* .gallery-photo span.photo-time {
+	display:none
+}手机端隐藏时间显示 */
+.gallery-photo span.photo-title {
+	font-size:12px
+}
+.gallery-photo span.photo-title {
+	left:3px;
+	bottom:3px;
+}
+}@keyframes fadeIn {
+	0% {
+	opacity:0;
+}
+100% {
+	opacity:1;
+}
+}
+
+/* Memos动态相册样式 */
+/* 相册页 end */
