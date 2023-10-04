@@ -4291,6 +4291,7 @@ maxWidth1200()
   -webkit-align-items: stretch;
   align-items: stretch;
   width: 100% !important;
+  margin-left: -0.75rem;
 }
 #article-container .telescopic-site-card-group .site-card {
   border: var(--style-border);
@@ -4307,7 +4308,6 @@ maxWidth1200()
   transition-timing-function: ease-in-out;
   overflow: hidden;
   height: 200px;
-  margin-right: 16px;
   margin-bottom: 1rem;
   position: relative;
   width: calc(100% / 6 - 16px) !important;
