@@ -1,9 +1,9 @@
+http://hexo.yurenyiyu.top/link/index.html
 http://hexo.yurenyiyu.top/essay/index.html
 http://hexo.yurenyiyu.top/photos/index.html
-http://hexo.yurenyiyu.top/link/index.html
-http://hexo.yurenyiyu.top/subscribe/index.html
 http://hexo.yurenyiyu.top/tags/index.html
 http://hexo.yurenyiyu.top/categories/index.html
+http://hexo.yurenyiyu.top/subscribe/index.html
 http://hexo.yurenyiyu.top/cc/index.html
 http://hexo.yurenyiyu.top/cookies/index.html
 http://hexo.yurenyiyu.top/privacy/index.html
