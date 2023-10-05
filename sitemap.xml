@@ -316,6 +316,13 @@
   </url>
   
   <url>
+    <loc>http://www.yurenyiyuji.top/tags/%F0%9F%93%91%E4%BD%9C%E4%B8%9A/</loc>
+    <lastmod>2023-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.yurenyiyuji.top/tags/%F0%9F%AB%A7%E5%91%93%E8%AF%AD/</loc>
     <lastmod>2023-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -323,7 +330,7 @@
   </url>
   
   <url>
-    <loc>http://www.yurenyiyuji.top/tags/%F0%9F%93%91%E4%BD%9C%E4%B8%9A/</loc>
+    <loc>http://www.yurenyiyuji.top/tags/%F0%9F%AA%84%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2023-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -350,13 +357,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>http://www.yurenyiyuji.top/tags/%F0%9F%AA%84%E5%B0%8F%E8%AF%B4/</loc>
-    <lastmod>2023-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -374,13 +374,6 @@
   </url>
   
   <url>
-    <loc>http://www.yurenyiyuji.top/categories/%F0%9F%8C%AB%EF%B8%8F%E5%91%93%E8%AF%AD%E9%9B%86/</loc>
-    <lastmod>2023-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.yurenyiyuji.top/categories/%F0%9F%8E%B4%E8%AE%BA%E6%96%87%E5%86%8C/</loc>
     <lastmod>2023-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -388,7 +381,7 @@
   </url>
   
   <url>
-    <loc>http://www.yurenyiyuji.top/categories/%F0%9F%8C%83%E9%9A%8F%E6%83%B3%E5%BD%95/</loc>
+    <loc>http://www.yurenyiyuji.top/categories/%F0%9F%8C%AB%EF%B8%8F%E5%91%93%E8%AF%AD%E9%9B%86/</loc>
     <lastmod>2023-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -396,6 +389,13 @@
   
   <url>
     <loc>http://www.yurenyiyuji.top/categories/%F0%9F%8C%A0%E5%88%9B%E4%BD%9C%E5%86%8C/</loc>
+    <lastmod>2023-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.yurenyiyuji.top/categories/%F0%9F%8C%83%E9%9A%8F%E6%83%B3%E5%BD%95/</loc>
     <lastmod>2023-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

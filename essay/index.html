@@ -206,11 +206,11 @@ if (true) {
 
     let linkElement = '';
     if (link) {
-      linkElement = `<a class="icat-bber-content-link" target="_blank" title="跳转到短文指引的链接" href="${link}" rel="external nofollow"><i class="iconfont icat-jump-link"></i>链接</a>`;
+      linkElement = `<a class="icat-bber-content-link" target="_blank" title="跳转到短文指引的链接" href="${link}" rel="external nofollow"><i class="fa-solid fa-link"></i>链接</a>`;
     }
 
     return {
-      content: `<div class="icat-bber-item"><div class="icat-bber-content">${contents}</div><hr><div class="icat-bber-bottom"><div class="icat-bber-info"><div class="icat-bber-info-time"><i class="iconfont icat-time-fill"></i><time class="datatime" datetime="${item.date}" style="display: inline;">${date}</time></div>${linkElement}</div></div></div>`,
+      content: `<div class="icat-bber-item"><div class="icat-bber-content">${contents}</div><hr><div class="icat-bber-bottom"><div class="icat-bber-info"><div class="icat-bber-info-time"><i class="fa-solid fa-clock"></i><time class="datatime" datetime="${item.date}" style="display: inline;">${date}</time></div>${linkElement}</div></div></div>`,
       date: date,
       text: text.replace(/\[(.*?)\]\((.*?)\)/g, '[链接]' + `${imgs?'[图片]':''}`),
       link: link
