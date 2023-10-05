@@ -13,7 +13,7 @@ function whenDOMReady() {
   // 自适应
   
   function photos() {
-    fetch('https://memos.yurenyiyu.top/api/v1/memo?creatorId=1&tag=相册&limit=10').then(res => res.json()).then(data => { // 记得修改memos地址
+    fetch('https://memos.yurenyiyuji.top/api/v1/memo?creatorId=1&tag=相册&limit=10').then(res => res.json()).then(data => { // 记得修改memos地址
         let html='', imgs = [];
         data.data.forEach(item => { imgs = imgs.concat(item.content.match(/\!\[.*?\]\(.*?\)/g)) });
         imgs.forEach(item => {

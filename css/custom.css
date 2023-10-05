@@ -5085,3 +5085,10 @@ body:has(#anMusic-page) .aplayer .aplayer-info .aplayer-controller .aplayer-time
     left: -66px;
   }
 }
+/* 音乐页 end */
+
+/* 侧边栏目录 hover */
+
+#aside-content #card-toc .toc-content .toc-link.active {
+  border-radius: 10px;
+}

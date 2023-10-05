@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://hexo.yurenyiyu.top</id>
+    <id>http://www.yurenyiyuji.top</id>
     <title>愚人呓语集 • Posts by &#34;💽新概念&#34; category</title>
-    <link href="http://hexo.yurenyiyu.top" />
+    <link href="http://www.yurenyiyuji.top" />
     <updated>2023-09-30T16:09:38.685Z</updated>
     <category term="🌟生日前记" />
     <category term="🧑🏻‍🏫教育公平" />
@@ -19,15 +19,15 @@
     <category term="✍🏻研究手记" />
     <category term="✒️读书笔记" />
     <category term="🫧呓语" />
-    <category term="🪄小说" />
+    <category term="📑作业" />
     <category term="🔴中国社会观察" />
     <category term="💥毛泽东与当代中国" />
-    <category term="📑作业" />
     <category term="💫论文" />
+    <category term="🪄小说" />
     <entry>
-        <id>http://hexo.yurenyiyu.top/posts/4a17b156.html</id>
+        <id>http://www.yurenyiyuji.top/posts/4a17b156.html</id>
         <title>Hello World</title>
-        <link rel="alternate" href="http://hexo.yurenyiyu.top/posts/4a17b156.html"/>
+        <link rel="alternate" href="http://www.yurenyiyuji.top/posts/4a17b156.html"/>
         <content type="html">&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
