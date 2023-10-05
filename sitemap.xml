@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.yurenyiyuji.top/essay/index.html</loc>
+    
+    <lastmod>2023-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.yurenyiyuji.top/photos/index.html</loc>
+    
+    <lastmod>2023-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.yurenyiyuji.top/link/index.html</loc>
     
     <lastmod>2023-10-05</lastmod>
@@ -29,25 +47,7 @@
   </url>
   
   <url>
-    <loc>http://www.yurenyiyuji.top/photos/index.html</loc>
-    
-    <lastmod>2023-10-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.yurenyiyuji.top/fcircle/index.html</loc>
-    
-    <lastmod>2023-10-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.yurenyiyuji.top/essay/index.html</loc>
     
     <lastmod>2023-10-05</lastmod>
     
