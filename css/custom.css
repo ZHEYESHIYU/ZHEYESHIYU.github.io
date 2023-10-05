@@ -5092,3 +5092,8 @@ body:has(#anMusic-page) .aplayer .aplayer-info .aplayer-controller .aplayer-time
 #aside-content #card-toc .toc-content .toc-link.active {
   border-radius: 10px;
 }
+
+#aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,
+#aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {
+  border-radius: 10px;
+}
