@@ -513,7 +513,7 @@
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     box-sizing: border-box;
-    background: url(https://i.ibb.co/jJwNjMV/635e9c6a228a3.png) center center no-repeat;
+    background: url(https://s1.imagehub.cc/images/2023/10/05/635e9c6a228a3.png) center center no-repeat;
     background-size: 100%;
 }
 
@@ -1504,11 +1504,11 @@ color: #ffffff;
 /*黑暗主题下的配置*/
 [data-theme=dark] #aside-content>.card-widget.card-info {
   /*换成自己图片的地址*/
-  background-image: url('https://i.ibb.co/m6dDjQQ/image.gif') !important
+  background-image: url('https://s1.imagehub.cc/images/2023/09/23/0.gif') !important
 }
 
 .loading-img {
-background: url(https://i.ibb.co/2PvmNMc/New-Concept-1.pngp) no-repeat center center;
+background: url('https://s1.imagehub.cc/images/2023/09/19/New-Concept-1.png') no-repeat center center;
 background-size: cover;
 }
 
