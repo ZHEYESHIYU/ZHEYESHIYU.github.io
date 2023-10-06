@@ -3,64 +3,24 @@
     <id>http://www.yurenyiyuji.top</id>
     <title>愚人呓语集 • Posts by &#34;🏳️‍🌈lgbtq&#34; tag</title>
     <link href="http://www.yurenyiyuji.top" />
-    <updated>2023-09-30T16:09:38.685Z</updated>
+    <updated>2023-05-16T16:00:00.000Z</updated>
+    <category term="✍🏻研究手记" />
+    <category term="🔘晚生代作家研究" />
+    <category term="💫论文" />
     <category term="🫧呓语" />
     <category term="🪄小说" />
-    <category term="📑作业" />
-    <category term="💫论文" />
-    <category term="🍂古代文学" />
     <category term="🌟生日前记" />
-    <category term="🧑🏻‍🏫教育公平" />
-    <category term="亚文化" />
-    <category term="🏳️‍🌈LGBTQ" />
-    <category term="💖毛泽东与当代中国" />
-    <category term="🌊💙💧🌌🏳️‍🌈👻⛈️🥳🧐🤔✨🎉🪄🧿💽📑📖🖍️🌸💮🟠🟡🟢🔵🟣🟤⚫⚪" />
-    <category term="🌁非虚构" />
-    <category term="台湾作家" />
-    <category term="文学理论" />
-    <category term="古代文学" />
-    <category term="当代中国文化" />
     <category term="✒️读书笔记" />
+    <category term="📑作业" />
     <category term="🔴中国社会观察" />
-    <category term="🔘晚生代作家研究" />
-    <category term="✍🏻研究手记" />
+    <category term="🍂古代文学" />
     <category term="☮️亚文化" />
+    <category term="🏳️‍🌈LGBTQ" />
+    <category term="教育公平" />
     <category term="🥳站点导览" />
     <category term="🤖人工智能" />
-    <category term="教育公平" />
     <category term="🌌诗歌" />
     <category term="💥毛泽东与当代中国" />
-    <entry>
-        <id>http://www.yurenyiyuji.top/posts/4a17b156.html</id>
-        <title>Hello World</title>
-        <link rel="alternate" href="http://www.yurenyiyuji.top/posts/4a17b156.html"/>
-        <content type="html">&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Run-server&#34;&gt;&lt;a href=&#34;#Run-server&#34; class=&#34;headerlink&#34; title=&#34;Run server&#34;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Generate-static-files&#34;&gt;&lt;a href=&#34;#Generate-static-files&#34; class=&#34;headerlink&#34; title=&#34;Generate static files&#34;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Deploy-to-remote-sites&#34;&gt;&lt;a href=&#34;#Deploy-to-remote-sites&#34; class=&#34;headerlink&#34; title=&#34;Deploy to remote sites&#34;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-        <category term="🌟生日前记" />
-        <category term="🧑🏻‍🏫教育公平" />
-        <category term="亚文化" />
-        <category term="🏳️‍🌈LGBTQ" />
-        <category term="💖毛泽东与当代中国" />
-        <category term="🌊💙💧🌌🏳️‍🌈👻⛈️🥳🧐🤔✨🎉🪄🧿💽📑📖🖍️🌸💮🟠🟡🟢🔵🟣🟤⚫⚪" />
-        <category term="🌁非虚构" />
-        <category term="台湾作家" />
-        <category term="文学理论" />
-        <category term="古代文学" />
-        <category term="当代中国文化" />
-        <updated>2023-09-30T16:09:38.685Z</updated>
-    </entry>
     <entry>
         <id>http://www.yurenyiyuji.top/posts/f0ca7bb.html</id>
         <title>《掩饰》摘录</title>
@@ -162,10 +122,10 @@
 &lt;p&gt;遗憾的是，不少同性恋者身为被主流性道德排挤的人，却常常自觉不自觉地把掩饰的要求转移到更加被污名化的群体身上。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;没有人时刻都活在宇宙中心，我们总有不符合社会期待、需要无奈掩饰的时刻。脆弱从来都不只是少数群体的特质，脆弱属于每一个人。&lt;/strong&gt;&lt;/p&gt;
 </content>
-        <category term="🏳️‍🌈LGBTQ" />
-        <category term="✒️读书笔记" />
         <category term="✍🏻研究手记" />
+        <category term="✒️读书笔记" />
         <category term="☮️亚文化" />
+        <category term="🏳️‍🌈LGBTQ" />
         <updated>2023-05-16T16:00:00.000Z</updated>
     </entry>
     <entry>
@@ -180,10 +140,10 @@
 &lt;p&gt;在面对“同化”要求的弱势群体面前，自由与平等的关系则呈现出了协同并进的关系。从矫正到掩饰，同化的要求的转变是在法律界人士基于平等原则的努力下得以推进的，在此过程中，弱势群体与主流群体在权利上趋于平等，在言行举止等多个方面他们也的确变得更加自由，但吉野颇具洞见地指出在“掩饰”阶段之后想要通过平等原则进一步推进弱势群体的权益会不可避免地陷入某种细碎的迷障之中，因此他才选择回到自由原则上去强调一个普世价值，因为后者强调了一个包括范围更广的共同体的权益，他引用斯图亚特·博恩斯对马丁·路德·金的一段论述：“金抓住了‘民权’的要害，即它背负了太多美式个人主义这一主流传统的负担，却轻视了另一种传统，即社群主义、集体奋斗，以及共同的善。”吉野称之为“新民权”，并在自由原则之外解除了它对法律的过度依赖，使之诉诸一种理性的沟通以期达成一种新的共识。在我看来，吉野打破平等原则的迷信似乎是将愈发分裂破碎的身份政治拉出它所陷入的泥沼的一招本手。仅从表面上看，这种原则的变更很可能被认为是对其所代表的理念的抛弃，但实际上自由与平等之间的关系在弱势群体这里更多表现为正相关，因此这种变更只是策略上强调的面向的差异。但它的结果却是突破了不同的弱势群体各自为战的僵局，尽管是否真的奏效仍是有待考证的。这么看来，这种尝试正是他摒弃了解构路径的原因，因为他所设想的这一出路并不宏阔以至于看起来不那么可能实现（可能这也是法学作为一种偏向实际效用的学科与哲学相异之处所导致的吧）。&lt;/p&gt;
 &lt;p&gt;啰啰嗦嗦写了不少，起初并没有想写的欲望，但似乎还是由于自己也感受到了吉野的那种面对与己相关的问题时所产生的激情。无论如何，写的这些东西实际上也只是一些不成形也没有经过仔细论证的思考，其合法性有多少到实在是没谱。最重要的是，如前所述，读完这本书促使我更进一步理解“自我”，也借这个机会理清了一些朦朦胧胧的念头，只是随着这些念头得以明确，新的问题也随之而生了。本是从文学出发却越来越远离它本身，也不知是不是一件好事，或许这就是文学所展示的广阔的路的迷人之处吧。&lt;/p&gt;
 </content>
-        <category term="🏳️‍🌈LGBTQ" />
-        <category term="✒️读书笔记" />
         <category term="✍🏻研究手记" />
+        <category term="✒️读书笔记" />
         <category term="☮️亚文化" />
+        <category term="🏳️‍🌈LGBTQ" />
         <updated>2023-05-11T16:00:00.000Z</updated>
     </entry>
 </feed>

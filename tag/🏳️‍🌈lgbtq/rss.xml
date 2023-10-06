@@ -5,73 +5,33 @@
         <link>http://www.yurenyiyuji.top</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Sun, 01 Oct 2023 00:09:38 +0800</pubDate>
-        <lastBuildDate>Sun, 01 Oct 2023 00:09:38 +0800</lastBuildDate>
+        <pubDate>Wed, 17 May 2023 00:00:00 +0800</pubDate>
+        <lastBuildDate>Wed, 17 May 2023 00:00:00 +0800</lastBuildDate>
+        <category>✍🏻研究手记</category>
+        <category>🔘晚生代作家研究</category>
+        <category>💫论文</category>
         <category>🫧呓语</category>
         <category>🪄小说</category>
-        <category>📑作业</category>
-        <category>💫论文</category>
-        <category>🍂古代文学</category>
         <category>🌟生日前记</category>
-        <category>🧑🏻‍🏫教育公平</category>
-        <category>亚文化</category>
-        <category>🏳️‍🌈LGBTQ</category>
-        <category>💖毛泽东与当代中国</category>
-        <category>🌊💙💧🌌🏳️‍🌈👻⛈️🥳🧐🤔✨🎉🪄🧿💽📑📖🖍️🌸💮🟠🟡🟢🔵🟣🟤⚫⚪</category>
-        <category>🌁非虚构</category>
-        <category>台湾作家</category>
-        <category>文学理论</category>
-        <category>古代文学</category>
-        <category>当代中国文化</category>
         <category>✒️读书笔记</category>
+        <category>📑作业</category>
         <category>🔴中国社会观察</category>
-        <category>🔘晚生代作家研究</category>
-        <category>✍🏻研究手记</category>
+        <category>🍂古代文学</category>
         <category>☮️亚文化</category>
+        <category>🏳️‍🌈LGBTQ</category>
+        <category>教育公平</category>
         <category>🥳站点导览</category>
         <category>🤖人工智能</category>
-        <category>教育公平</category>
         <category>🌌诗歌</category>
         <category>💥毛泽东与当代中国</category>
-        <item>
-            <guid isPermalink="true">http://www.yurenyiyuji.top/posts/4a17b156.html</guid>
-            <title>Hello World</title>
-            <link>http://www.yurenyiyuji.top/posts/4a17b156.html</link>
-            <category>🌟生日前记</category>
-            <category>🧑🏻‍🏫教育公平</category>
-            <category>亚文化</category>
-            <category>🏳️‍🌈LGBTQ</category>
-            <category>💖毛泽东与当代中国</category>
-            <category>🌊💙💧🌌🏳️‍🌈👻⛈️🥳🧐🤔✨🎉🪄🧿💽📑📖🖍️🌸💮🟠🟡🟢🔵🟣🟤⚫⚪</category>
-            <category>🌁非虚构</category>
-            <category>台湾作家</category>
-            <category>文学理论</category>
-            <category>古代文学</category>
-            <category>当代中国文化</category>
-            <pubDate>Sun, 01 Oct 2023 00:09:38 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Run-server&#34;&gt;&lt;a href=&#34;#Run-server&#34; class=&#34;headerlink&#34; title=&#34;Run server&#34;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Generate-static-files&#34;&gt;&lt;a href=&#34;#Generate-static-files&#34; class=&#34;headerlink&#34; title=&#34;Generate static files&#34;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Deploy-to-remote-sites&#34;&gt;&lt;a href=&#34;#Deploy-to-remote-sites&#34; class=&#34;headerlink&#34; title=&#34;Deploy to remote sites&#34;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
- ]]></description>
-        </item>
         <item>
             <guid isPermalink="true">http://www.yurenyiyuji.top/posts/f0ca7bb.html</guid>
             <title>《掩饰》摘录</title>
             <link>http://www.yurenyiyuji.top/posts/f0ca7bb.html</link>
-            <category>🏳️‍🌈LGBTQ</category>
-            <category>✒️读书笔记</category>
             <category>✍🏻研究手记</category>
+            <category>✒️读书笔记</category>
             <category>☮️亚文化</category>
+            <category>🏳️‍🌈LGBTQ</category>
             <pubDate>Wed, 17 May 2023 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;aside&gt;
 ➡️ 摘自：
@@ -175,10 +135,10 @@
             <guid isPermalink="true">http://www.yurenyiyuji.top/posts/33df53ff.html</guid>
             <title>《掩饰》读后</title>
             <link>http://www.yurenyiyuji.top/posts/33df53ff.html</link>
-            <category>🏳️‍🌈LGBTQ</category>
-            <category>✒️读书笔记</category>
             <category>✍🏻研究手记</category>
+            <category>✒️读书笔记</category>
             <category>☮️亚文化</category>
+            <category>🏳️‍🌈LGBTQ</category>
             <pubDate>Fri, 12 May 2023 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;作为非专业读者，进入并潜行其中的时候如同误入渐欲迷人眼的万花筒，在那些事例、构想与其背后的法理概念面前，自己渐渐产生出一种由失语带来的恐惧，但它就跟其它一切从我口中付诸笔端的类似表述一样，实际上只是一种由紧张和全神贯注的阅读行为生发出的不负责任的夸张的断想。毕竟，在接连到来的知识性焦虑所空出的缝隙之中总归还是能够同个体经验勾连来完成最后的理解步骤，这也多亏个体与历史的解释学循环同诗性语言与学术话语的交接，或许这正是刘阳老师所谓的文学理论作为一种方法进入其它学科的生动体现，它所达成的效果是变晦涩为易懂——以将生命的轨迹与读者共振重叠的方式。&lt;/p&gt;
 &lt;p&gt;从人权出发到不同民权群体诉求再在更高的层面上复归人权的思考，可以说更系统地回应了我至今对女性主义的浮于表面（本想接着本书的路径终于能够在永无止境地延宕之后叩开女性主义的研究门路，但现在还是被更旺盛的与己相关的意识所阻隔）的思考：它所以重要不仅仅是因为它是对女性权益的维护，更因为它在某种意义上与所有弱势群体密切相关（自METOO以来的近些年的女性权益运动让我看到的是一种可贵的突破可能，正如鹰顿对女性主义运动接棒在西方失落了的马克思主义运动的赞誉一样，但这些年来的进展和所看到的言论会让我更为警惕，因为在实际的发展过程中它可能并没有走向一条“更广阔的路”，而是显现出与八十年代解冻后相似的历史逻辑——用新的“一尊”取代此前的“一尊”（通常这被视为冷战思维的延续，但如今的社会似乎早已完成了对这条一度失落的小径的复返，这么想来也倒是能够理解了），在缺乏更系统性的辨析思考的情况下，我总隐隐感到它身上那种与“前辈”相似的最终会陷入停滞与自我攻谗的可能，在我缺乏知识储备的脑袋瓜里只能天真且不负责任地将之与我们所处的糟糕的公共语境关联起来（有趣的是，写到这里竟又能神奇地同吉野对多元主义身份政治不断演进下去所造成的分裂的担忧相联系起来，正如郭晓飞在前言里一语中的表述一样：“也许TZ者乐得这种不同身份打成一片的局面，因为这可以回避对政治合法性的颠覆性质疑。”））。吉野让我看到TXL权益对弱势群体的重要之处：“他们对自我展现的追求象征着我们所有人对真实的渴望。”我想少有人能够否认，这一独特群体中的每个个体几乎都会经历这么一次“自我”的痛苦的孵化的过程，它确实近乎一次鲜血淋漓的后天“分娩”，而这种对内心深处“自我”的直面使得这个群体得以区别于其它许许多多弱势群体，或许正因这种不可避免的（通常也是被迫的）对内心深处的“自我”的凝视（如果要用一个形象的类比，我能想到的就是犯罪影视中最常见的桥段：反派粗暴地将早已受到严酷拷打、奄奄一息——最重要的是被绑缚起来不能自由行动的主角拖拽到破碎的镜子面前，用锁喉的方式提起主人公自然垂下的头颅并让他看清自己此刻的屈辱面容），才会使得这个群体在与其他人一同面对启蒙与自由主义的观念时，能够天然地对它们更多出一些发自心底的认同（这或许就能在一定程度上解释为什么课本中哪些被批判的堕落腐朽的后现代作家、诗人有很多都属于这一群体了）。至少在我极为有限的阅历中，有意识且不惜一切努力想去了解“自我”为何如此并且真切地经历过这么一个求索过程，才是使一个个体最终成为唯一的“这一个”的重要因素。换句话说，只有真正地理解了“自我”，一个个体才会在存在的意义上变得整全，这也是同性恋群体中每个人的经历所能提供给所有人的洞见——他&amp;#x2F;她们在成为自己的过程中都无一例外地面对着直面并接受“自我”这一不可回避的议题。&lt;/p&gt;

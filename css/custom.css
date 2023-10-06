@@ -1829,9 +1829,9 @@ span.recent-post-top-text {
   justify-content: center;
   align-items: flex-end;
   align-content: center;
-  padding-top: .5rem;
-  font-weight: 700;
-  font-size: 16px!important;
+  padding-top: 0rem;
+  font-weight: 600;
+  font-size: 14px!important;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 0!important
 }

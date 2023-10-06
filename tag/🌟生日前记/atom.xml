@@ -3,64 +3,24 @@
     <id>http://www.yurenyiyuji.top</id>
     <title>愚人呓语集 • Posts by &#34;🌟生日前记&#34; tag</title>
     <link href="http://www.yurenyiyuji.top" />
-    <updated>2023-09-30T16:09:38.685Z</updated>
+    <updated>2021-12-23T16:00:00.000Z</updated>
+    <category term="✍🏻研究手记" />
+    <category term="🔘晚生代作家研究" />
+    <category term="💫论文" />
     <category term="🫧呓语" />
     <category term="🪄小说" />
-    <category term="📑作业" />
-    <category term="💫论文" />
-    <category term="🍂古代文学" />
     <category term="🌟生日前记" />
-    <category term="🧑🏻‍🏫教育公平" />
-    <category term="亚文化" />
-    <category term="🏳️‍🌈LGBTQ" />
-    <category term="💖毛泽东与当代中国" />
-    <category term="🌊💙💧🌌🏳️‍🌈👻⛈️🥳🧐🤔✨🎉🪄🧿💽📑📖🖍️🌸💮🟠🟡🟢🔵🟣🟤⚫⚪" />
-    <category term="🌁非虚构" />
-    <category term="台湾作家" />
-    <category term="文学理论" />
-    <category term="古代文学" />
-    <category term="当代中国文化" />
     <category term="✒️读书笔记" />
+    <category term="📑作业" />
     <category term="🔴中国社会观察" />
-    <category term="🔘晚生代作家研究" />
-    <category term="✍🏻研究手记" />
+    <category term="🍂古代文学" />
     <category term="☮️亚文化" />
+    <category term="🏳️‍🌈LGBTQ" />
+    <category term="教育公平" />
     <category term="🥳站点导览" />
     <category term="🤖人工智能" />
-    <category term="教育公平" />
     <category term="🌌诗歌" />
     <category term="💥毛泽东与当代中国" />
-    <entry>
-        <id>http://www.yurenyiyuji.top/posts/4a17b156.html</id>
-        <title>Hello World</title>
-        <link rel="alternate" href="http://www.yurenyiyuji.top/posts/4a17b156.html"/>
-        <content type="html">&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Run-server&#34;&gt;&lt;a href=&#34;#Run-server&#34; class=&#34;headerlink&#34; title=&#34;Run server&#34;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Generate-static-files&#34;&gt;&lt;a href=&#34;#Generate-static-files&#34; class=&#34;headerlink&#34; title=&#34;Generate static files&#34;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Deploy-to-remote-sites&#34;&gt;&lt;a href=&#34;#Deploy-to-remote-sites&#34; class=&#34;headerlink&#34; title=&#34;Deploy to remote sites&#34;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-        <category term="🌟生日前记" />
-        <category term="🧑🏻‍🏫教育公平" />
-        <category term="亚文化" />
-        <category term="🏳️‍🌈LGBTQ" />
-        <category term="💖毛泽东与当代中国" />
-        <category term="🌊💙💧🌌🏳️‍🌈👻⛈️🥳🧐🤔✨🎉🪄🧿💽📑📖🖍️🌸💮🟠🟡🟢🔵🟣🟤⚫⚪" />
-        <category term="🌁非虚构" />
-        <category term="台湾作家" />
-        <category term="文学理论" />
-        <category term="古代文学" />
-        <category term="当代中国文化" />
-        <updated>2023-09-30T16:09:38.685Z</updated>
-    </entry>
     <entry>
         <id>http://www.yurenyiyuji.top/posts/65136149.html</id>
         <title>冬夜，一只黑猫打我身边跑过</title>
@@ -93,5 +53,114 @@
         <category term="🫧呓语" />
         <category term="🌟生日前记" />
         <updated>2021-12-23T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.yurenyiyuji.top/posts/aee12c8b.html</id>
+        <title>A CONVERSATION TO BE CONFIRMED</title>
+        <link rel="alternate" href="http://www.yurenyiyuji.top/posts/aee12c8b.html"/>
+        <content type="html">&lt;p&gt;L：“所以，你怎么看？”&lt;/p&gt;
+&lt;p&gt;N：“什么？”&lt;/p&gt;
+&lt;p&gt;L：“你刚刚不是才说了自己的问题嘛。”&lt;/p&gt;
+&lt;p&gt;N：“……我不知道。我不知道自己当初做的决定到底是对的还是错的，我也不知道这么长时间以来我所追求这么一个东西是不是值得的，说到底我还是很迷茫。”&lt;/p&gt;
+&lt;p&gt;L：“这样啊。不过就现在而言，我觉得你还是顺其自然吧。就像你所说的，此前的举动和决策都是在迷茫惶惑中匆匆做出的，没有经过真正意义上的理性思考，但既然它们已经成为既定事实，一味地沉湎于过去实在是没什么意义，这道理我不说你也该懂。”&lt;/p&gt;
+&lt;p&gt;N：“话是这么说没错，但如果真的能让理智完全把控思维，我又怎么会到现在还在犹豫不决？就是因为无论如何这些画面都无法从脑海里消失，我才会落得现在这个地步不是吗？”&lt;/p&gt;
+&lt;p&gt;L：“……”&lt;/p&gt;
+&lt;p&gt;N：“说实话，这一年以来我愈发觉得自己可能根本不适合这个专业也不适合在这样一个城市里生活，但走到现在我早已经没办法轻易抽身而出了，我已经习惯了这个城市，习惯了每天都要面对新的课程，习惯了散散漫漫的生活，可是现实正在不断地逼迫你把目光放在它的身上，它的手离你越来越近，然后一把掐住你的脖子，把你试图左顾右盼的头掰过来。”&lt;/p&gt;
+&lt;p&gt;L：“要不要说的这么恐怖啊，你这也太夸张了。”&lt;/p&gt;
+&lt;p&gt;N：“但确实很令人窒息啊。毕竟还有一年，不对，现在应该不到一年，就得面对真正的‘苦难’。”&lt;/p&gt;
+&lt;p&gt;L：“唉，你说得我都跟着你焦虑了。”&lt;/p&gt;
+&lt;p&gt;N：“要是我当初没挂掉韩少功，倒还不至于如此绝望。”&lt;/p&gt;
+&lt;p&gt;L：“刚刚才说过不要再抓着过去不放了！你怎么回事？”&lt;/p&gt;
+&lt;p&gt;N：“这么一想，似乎我一心想要做好的事情到头来都落得个一事无成，高中保送没考好，现在这个从高考结束后就一直在想的保研也无疾而终了。”&lt;/p&gt;
+&lt;p&gt;L：“害，你也不必把考研看得那么凶神恶煞吧。”&lt;/p&gt;
+&lt;p&gt;N：“但事实确实如此啊。我现在一想到下个学期就头晕眼花，透妈，还有该死的实习！”&lt;/p&gt;
+&lt;p&gt;L：“总要来的，跑得了和尚跑不了庙，该面对就面对哈。”&lt;/p&gt;
+&lt;p&gt;N：“你这话说的真像我爸。唉，要是有钱，我也想出国。你说说看，那么多书，那么多词条，我这如同蠢猪的脑子怎么看的完？怎么背得下来？还不说有政治课，我属实佛了。而且，我现在还怀疑自己，唉。”&lt;/p&gt;
+&lt;p&gt;L：“那你想怎么办？我这不也是，热情早就被消磨殆尽了，跟那些大佬们比，我也毫无优势，但还是有喜欢的成分在啊，要不然怎么会撑到现在？我觉得你在这方面跟我差不多。”&lt;/p&gt;
+&lt;p&gt;N：“喜欢不喜欢跟合适不合适以及能不能做好是三个截然不同的概念。我是喜欢，也写点儿憨批文章，但我实在没有任何天分，感觉也很难做出什么成绩来。所以我这一段儿一遍肝论文一遍在重新思考自己的前景。”&lt;/p&gt;
+&lt;p&gt;L：“怎么说？”&lt;/p&gt;
+&lt;p&gt;N：“我之前不是想搞学术吗，但是我无法做到心无旁骛地学习，而且自己有几斤几两也掂量的清清楚楚，储备差距跟前排相差实在太大了。”&lt;/p&gt;
+&lt;p&gt;L：“不至于吧，我其实觉得你还是蛮牛的。”&lt;/p&gt;
+&lt;p&gt;N：“都是假象罢辽。其实在整个年级里我实在是辣鸡得一批，要体系没体系，要创见没创见，要感受力没感受力，要文笔没文笔，按文东的话说，我写得东西可以说是‘极为糟糕’。而且最要命的是，我似乎根本没有很想去改变自己的现状的意愿，就是说辣鸡本身还想躺着不改，大概就是废青本青吧，呵呵。”&lt;/p&gt;
+&lt;p&gt;L：“……”&lt;/p&gt;
+&lt;p&gt;N：“我感觉环境对我的影响实在太过重要了，我很羡慕那种完全不为外界所动的人。在某种意义上说，进入这所学校的时候就已经注定了我将来走出去后所能达到的上限。还有就是，家庭出身对人的塑造无疑具有很强的决定性，这一点我在高中的时候有所体悟，到现在更加坚定了。说实话，无论我奋斗到何种程度都比不过那些出生好的人。他们的资源会一直存在，只要他们愿意合理地运用，起点照样会比我高。”&lt;/p&gt;
+&lt;p&gt;L：“没必要这样比较吧。“&lt;/p&gt;
+&lt;p&gt;N：“不过是陈述事实罢辽。我就是一屑，对我个人而言其实没什么影响，毕竟我也没什么宏图大志，最后能养活自己就算不错了，只不过这件事情的存在本身让我觉得很难过。”&lt;/p&gt;
+&lt;p&gt;L：“……”&lt;/p&gt;
+&lt;p&gt;N：“就拿我们这专业来说吧，父母教育程度高的同学尽管不说能有多么厉害，但其知识面和阅读量确实要比稍差的同学多，如果家里还是注重教育的就更不用说了。还有地域差异，咱们高中的时候天天都在不断地写这作业那作业，其它的根本无暇顾及，也没有任何意识，而很多其它地区的同学却不是这样。”&lt;/p&gt;
+&lt;p&gt;L：“你这只是在为你自己的懒惰拖延和不想努力找借口吧。”&lt;/p&gt;
+&lt;p&gt;N：“……你真是毫不留情啊。是，我不过是一屑罢辽，有功夫说这还不如多看点儿书来的有用。”&lt;/p&gt;
+&lt;p&gt;L：“是啊，我感觉你就是喜欢胡思乱想，不如留着时间干点儿正事。”&lt;/p&gt;
+&lt;p&gt;N：“但我没办法控制啊，唉，要不然我搁儿天天写什么憨批文章呢。‘苦闷的产物’罢辽。”&lt;/p&gt;
+&lt;p&gt;L：“……”&lt;/p&gt;
+&lt;p&gt;N：“而且最讽刺的是，写来写去还没什么人看。”&lt;/p&gt;
+&lt;p&gt;L：“你这？不都说是个人情绪吗，哪有那么多人能与你产生共情的？现代社会人与人之间能产生的只有厌烦和误解，你这学文学的还不比我懂这些？”&lt;/p&gt;
+&lt;p&gt;N：“人总是有虚荣心的吧。虽然从根本上驱动我书写的并非‘向外人展示以求得赞赏’，但任何被创作出来的作品都要有接受者才能算是完整的，如果收不到正反馈我也会很苦恼的。说实话，三年的习作实在不少，但真正收到反馈的屈指可数，我除了自我感知之外根本无法判断自己的水平是否有所增长，而且对其他人的情况也毫无了解，没有参照系的评价在某种程度上根本就是毫无意义吧。”&lt;/p&gt;
+&lt;p&gt;L：“唉，也是。不过就我看到你写的东西，觉得还是挺好的，虽然称不上打动人吧，但最起码很有画面感。”&lt;/p&gt;
+&lt;p&gt;N：“因为写得确实不怎么地，很多地方不过是用力过猛罢辽，而且现学现卖痕迹严重。”&lt;/p&gt;
+&lt;p&gt;L：“学到的只是个皮毛。”&lt;/p&gt;
+&lt;p&gt;N：“dei！是这样。”&lt;/p&gt;
+&lt;p&gt;L：“但你还在不断地写，这本身就挺好啊，像我就做不到。”&lt;/p&gt;
+&lt;p&gt;N：“写只是因为除此之外没有其它可以排解情绪的办法而已。就像你刚才说的，人与人之间所有的只是隔膜，彼此之间的互相理解实在太难了，所以那些天天说什么‘没有人是一座孤岛’实在是脑子有泡，但我又不得不承认，把文字发出来还是抱有一定的幻想的——幻想能够得到回应，那怕是一点儿也行。”&lt;/p&gt;
+&lt;p&gt;L：“嗯。”&lt;/p&gt;
+&lt;p&gt;N：“至于有关写作的问题，我之前写了好长一段话，你可以看看。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;”写作这件事愈发成为支撑我存在活下去的一个支柱，可能这样说显得十分沉重，我自己所表现出来的对待写作的态度也与这份说辞不那么相符，但对于内心的我而言确实如此。懊悔的是难以弃绝与写作本身之外有关的其他感受，它们萦绕在我的身旁，使我在无法动弹的同时也深深感受到一种不能完全排除掉功利性因素的焦虑。从本质上讲，我仍旧没有什么目的，如果可以的话，我希望自己能够在之后的生命里不带任何预想地就这样一直写下去。可书写对我而言并非是为了自我消耗和孤芳自赏（虽然我也赏不起来），现在的我也越来越难以从写作中收获到更多的乐趣，因而，我逐渐开始感到有些惶恐，这种惶恐来自掷地无声，来自翻不起波澜，来自我只能试图“孤芳自赏”。一两年前似乎还不是这样，那个时候我们会互相交换彼此的文字，尽管我们都深深地感到自己的鄙陋和浅薄，但交换本身带来的共鸣能够让我们感受到一种发自身心的欢乐，可随着年岁的增长、随着相距距离的拉长，后来的我们就不再进行这样近乎过家家的举动，曾经的兴致勃勃逐渐转换为羞涩与忸怩不安，或者说，转换为一个又一个沙雕动图表情包掩盖下的互相打趣嘻嘻哈哈。比上不足比下有余同高不成低不就构建起一份距离感和朦胧性，它将丝毫不懂的人拒之门外又使精通此道的人不屑一顾拂袖而去，只留下我们这些班门弄斧学艺不精的人呆滞于原地，不知如何是好。”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;L：“我看了，其实我也大概理解你的感受，现在我也不再让别人看我的作品了，不是不想，只是觉得无论如何都没办法回到以前那样，他们看过之后可能还是只说一句‘嗯’或者夸奖一番，但并不会有任何的我所期待的交流。而且我感觉随着年龄的增长，我们最终还是得脱离曾经习惯了的朝夕相处的生活模式从而走向独自一人（这或许就是所谓现代性的弊端），但就像你意识到的那样谁都对此都毫无办法，所以我觉得你还是试图改变自己的心态比较好。”&lt;/p&gt;
+&lt;p&gt;N：“唉，也是。不过调整心态对我而言也不过是嘴上说说，要不然我早就不是现在这个鬼样子了。”&lt;/p&gt;
+&lt;p&gt;L：“但话又说回来，从这点看，我感觉你其实没怎么变。”&lt;/p&gt;
+&lt;p&gt;N：“唉，是了。你知道吗，我去年的时候还觉得没怎么变是件好事，以为自己是‘保存本心’还洋洋得意，但今年我完全改变了自己的看法。没变化在一定程度上就相当于没长进，没长进放在我们这个年龄可以理解为幼稚与不成熟。我之前还很天真，保有较强的理想主义，但现在这种倾向已经淡化了不少，取而代之的是一种颓丧，因为骨子里仍旧认定‘成熟’是件不怎么好的事情，但曾经的存在根基又在不断地动摇，不知道最后会选择哪一条未知的路线，因而在不断地变动中感到不安与无限的焦虑，但又不想主动找寻出路，所以放置不管就很颓废。”&lt;/p&gt;
+&lt;p&gt;L：“所以你这个学期才抓住‘现代性’不放想一路写下去？”&lt;/p&gt;
+&lt;p&gt;N：“是这样，我确实想更深入地了解它，然后了解自己所处时代的情况。但就我现在所掌握到的皮毛来看，尼采所说的‘虚无主义统治人类两百年’完全是真真切切的大实话，我不管别人，我是先虚无了。”&lt;/p&gt;
+&lt;p&gt;L：“……你这，宛如智障发言。”&lt;/p&gt;
+&lt;p&gt;N：“没办法，我就是智障本障。虽然如此，但还是在表面上保留接近高傲的自尊，保护色和保护壳要准备到最好！”&lt;/p&gt;
+&lt;p&gt;L：“……”&lt;/p&gt;
+&lt;p&gt;N：“其实我超级羡慕那些天天积极向上、看得很开的人，对我而言实在是太过困难了，如果你在平日里让我笑，我只能苦笑。”&lt;/p&gt;
+&lt;p&gt;L：“唉，说实话，每次跟你聊天我都觉得自己陷入悲观情绪漩涡，实在可怕。”&lt;/p&gt;
+&lt;p&gt;N：“唉，没办法，我就这样一人。所以深知自己如此的我，每次都会十分感谢跟我聊天的人。”&lt;/p&gt;
+&lt;p&gt;L：“那你说说，你到底什么时候会感到开心？”&lt;/p&gt;
+&lt;p&gt;N：“唔，我想想。开心的时候说实话并不少，但都是很短暂，一瞬间的开心会延续一段时间，但它不仅容易中断，而且常常很快就会结束，例外的话，应该是跟家人、朋友和喜欢的人在一起的时间吧，因为彼此交流和相处是一个过程，而只要能够跟别人接触，对我而言就能在一定程度上削减不开心的因素。”&lt;/p&gt;
+&lt;p&gt;L：“但是我觉得接触不一定会带来快乐吧，有些接触会更让人难受？”&lt;/p&gt;
+&lt;p&gt;N：“是有这种情况啦，不过在某种程度上是因为我们会对所接触者设下积极的预设，在我看来，造成不开心的原因就是没达到或者颠覆了这种预设。打个比方说，你本来觉得共同语言很多的朋友是能够理解自己的，但实际上接触下来却发现二人的思维方式有很大差异，这就会有一种落差感。”&lt;/p&gt;
+&lt;p&gt;L：“有道理。我感觉还有另一种情况，就是这个人只能在实际中陪伴我们，一旦诉诸精神，他&amp;#x2F;她就不能达到我们的预想。”&lt;/p&gt;
+&lt;p&gt;N：“有可能吧，但我总觉得这是愿不愿意的问题而非能不能的问题，如果有心的话，对方还是能够感觉到的吧。”&lt;/p&gt;
+&lt;p&gt;L：“是。不过听你这么一说，感觉你在情感分析上有所长进啊。”&lt;/p&gt;
+&lt;p&gt;N：“有，有吗？哈哈哈哈哈。”&lt;/p&gt;
+&lt;p&gt;L：“可疑的笑声，如实招来！”&lt;/p&gt;
+&lt;p&gt;N：“唉。之前不都跟你说过了吗，你是嫌我今年失败的还不够多吗？”&lt;/p&gt;
+&lt;p&gt;L：“……算了，看你跟藏个宝贝似的，既然你不愿意说就不多过问了。”&lt;/p&gt;
+&lt;p&gt;N：“嘿嘿。说实话，就是因为这些经历，我今年对这方面的问题看开了不少，可能骨子里并没能真正做到看开，但从表面上讲我已经不再固守此前的观念了，因为你确实很难去找到一个彼此在各方面都符合各自要求的人，或许可以被视为是一种妥协吧。”&lt;/p&gt;
+&lt;p&gt;L：“是，我感觉人与人交往过程中最重要的是对每一个人都付出真心，这或许在外人看来是件极其愚蠢的事情，但倘若这一点都没有达到，双方的关系实际上就是虚无缥缈的。”&lt;/p&gt;
+&lt;p&gt;N：“我也这么觉得。不过对于爱情而言，我越发觉得‘爱’这个字是很沉重的，如果我们说自己爱一个人，那么这种感情必然已经达到了很深的地步。”&lt;/p&gt;
+&lt;p&gt;L：“在我看来，仅仅是喜欢就已经很难了。感情这东西本身就极为脆弱不是吗？如果双方不加以细心维持又怎么能发展下去呢？”&lt;/p&gt;
+&lt;p&gt;N：“是，所以我每次听HB的那张专辑都会十分难过。”&lt;/p&gt;
+&lt;p&gt;L：“尤其是那两首吧。”&lt;/p&gt;
+&lt;p&gt;N：“对。”&lt;/p&gt;
+&lt;p&gt;L：“其实你之前跟我聊那些经历的时候我一直有一种感觉是你自己陷入过深了，或者说有点儿一厢情愿。”&lt;/p&gt;
+&lt;p&gt;N：“……是吧。我现在再看看那些时候写的分行的文字都觉得，唉，难顶。”&lt;/p&gt;
+&lt;p&gt;L：“哈哈哈哈哈哈哈哈，确实，你还让我看过两首，实在是……”&lt;/p&gt;
+&lt;p&gt;N：“所以后来慢慢地我就不再这样了，或者说会更加明确地将这种东西视为情绪宣泄的工具。”&lt;/p&gt;
+&lt;p&gt;L：“涉嫌辱文学了啊！”&lt;/p&gt;
+&lt;p&gt;N：“没办法，事实如此嘛。”&lt;/p&gt;
+&lt;p&gt;L：“不过确实，你近期的状态还算不错。”&lt;/p&gt;
+&lt;p&gt;N：“你可以理解为要写的憨批论文过多以至于无暇顾及？”&lt;/p&gt;
+&lt;p&gt;L：“忙点儿好，总比清闲着胡思乱想强。”&lt;/p&gt;
+&lt;p&gt;N：“各有利弊吧，我只是感觉自己头发快没了，而且脸又开始烂了。”&lt;/p&gt;
+&lt;p&gt;L：“……你这也太惨了。说实话，你今年过得真的不好，按说不应该这样的。”&lt;/p&gt;
+&lt;p&gt;N：“我其实也不知道自己究竟为何沦落为现在这样，只是觉得很累了，所以想平平静静的感受岁月静好，不过这只是美好梦想罢辽。如果说现在最大的愿望是什么，那自然是在维持好现有关系的情况下早点儿离开这座万恶的城市，虽然郑州天天都是雾霾，但脱去北京自带的精神压迫和学业焦虑之后，轻松倒是会轻松一些。”&lt;/p&gt;
+&lt;p&gt;L：“唉，谁不想呢？大家都盼着回家过年，周涛那句话到现在还是顶管用的真理：‘大干二十天，回家过大年’。”&lt;/p&gt;
+&lt;p&gt;N：“只不过我们再不是当年热火朝天背书的我们了。”&lt;/p&gt;
+&lt;p&gt;L：“……算了，问你最后一个问题：夏天到底怎么了？”&lt;/p&gt;
+&lt;p&gt;N：“有关梦的话不如等到它再度来临时再做出解答吧。”&lt;/p&gt;
+&lt;p&gt;L：“……既然你这么说，想来也不是什么好事儿。”&lt;/p&gt;
+&lt;p&gt;N：“又有什么是真正的好，什么是真正的坏呢？不过是‘围城’困境罢了。”&lt;/p&gt;
+&lt;p&gt;L：“唉。”&lt;/p&gt;
+&lt;p&gt;N：“时间不早了，快休息吧。”&lt;/p&gt;
+&lt;p&gt;L：“行，那我先撤了，你也早点休息。”&lt;/p&gt;
+&lt;p&gt;N：“嗯。晚安。”&lt;/p&gt;
+&lt;p&gt;L：“晚安。”&lt;/p&gt;
+</content>
+        <category term="🫧呓语" />
+        <category term="🌟生日前记" />
+        <updated>2019-12-23T16:00:00.000Z</updated>
     </entry>
 </feed>
