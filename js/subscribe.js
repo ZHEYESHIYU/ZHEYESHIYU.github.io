@@ -1,12 +1,1 @@
-  var icat = {
-    submitInfo: function() {
-      var submitBox = document.querySelector('.submit-box')
-      
-      if (submitBox.classList.contains('display')) {
-        submitBox.classList.remove('display')
-      } else {
-        submitBox.classList.add('display')
-      }
-    }
-  }
-    // 订阅页点击
+var icat={submitInfo:function(){var s=document.querySelector(".submit-box");s.classList.contains("display")?s.classList.remove("display"):s.classList.add("display")}};
