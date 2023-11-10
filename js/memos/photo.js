@@ -33,7 +33,7 @@ function photos() {
                   title = tat.split(' ')[1];
               } else title = tat
 
-              html += `<div class="gallery-photo"><a href="${img}" data-fancybox="gallery" class="fancybox" data-thumb="${img}"><img class="photo-img" loading='lazy' decoding="async" src= "/img/loading.gif" data-lazy-src="${img}"></a>`;
+              html += `<div class="gallery-photo"><a href="${img}" data-fancybox="gallery" class="fancybox" data-thumb="${img}"><img class="photo-img" loading='lazy' decoding="async" src="${img}"></a>`;
               title ? html += `<span class="photo-title">${title}</span>` : '';
               time ? html += `<span class="photo-time">${time}</span>` : '';
               html += `</div>`;
