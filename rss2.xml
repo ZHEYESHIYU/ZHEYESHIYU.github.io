@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>愚人呓语集</title>
+    <link>http://www.yurenyiyuji.top/</link>
+    
+    <image>
+      <url>http://www.yurenyiyuji.top/icon.png</url>
+      <title>愚人呓语集</title>
+      <link>http://www.yurenyiyuji.top/</link>
+    </image>
+    
+    <atom:link href="http://www.yurenyiyuji.top/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Thu, 09 Nov 2023 13:01:25 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>《九月寓言》读后</title>
+      <link>http://www.yurenyiyuji.top/posts/d84f08b4.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/d84f08b4.html</guid>
+      <pubDate>Tue, 07 Nov 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;我想身处九十年代的五零后作家面对喧嚣纷繁的市场和现代化变革所感到的那种失落与那些早早宣告人文精神失落的知识分子一样，在某种意义上都是面对现代与城市的不适应的一种表现。与其说他们拥有高贵的精神以及崇高的信念不如说他们只是在面对被历史踏碎的现实时无力承担也难以想象“未来”。寻根</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8F%99%EF%B8%8F%E8%AF%84%E8%AE%BA%E9%9B%86/">🏙️评论集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%92%EF%B8%8F%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">✒️读书笔记</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/d84f08b4.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>《战争与和平》读后：对托尔斯泰历史哲学的简析</title>
+      <link>http://www.yurenyiyuji.top/posts/1f74a551.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/1f74a551.html</guid>
+      <pubDate>Thu, 31 Aug 2023 05:52:46 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;两个多月后我终于读完了托翁此著。四年前我就应当把它读完，在外国文学史第二学期的所有读书报告中，只有在面对托尔斯泰的时候我犯了难。因为时间绝对不允许我再去阅读并写下报告的文字，那时的我十分痛苦，为了赶上提交作业的最后一程，还是选择了剽窃拼凑一些不属于自己的文字。&lt;/p&gt;
+&lt;p</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8F%99%EF%B8%8F%E8%AF%84%E8%AE%BA%E9%9B%86/">🏙️评论集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%92%EF%B8%8F%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">✒️读书笔记</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/1f74a551.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>本科毕业论文致谢及其他</title>
+      <link>http://www.yurenyiyuji.top/posts/b614fa09.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/b614fa09.html</guid>
+      <pubDate>Fri, 25 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8C%AB%EF%B8%8F%E5%91%93%E8%AF%AD%E9%9B%86/">🌫️呓语集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%AB%A7%E5%91%93%E8%AF%AD/">🫧呓语</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%8D%F0%9F%8F%BB%E7%A0%94%E7%A9%B6%E6%89%8B%E8%AE%B0/">✍🏻研究手记</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%94%98%E6%99%9A%E7%94%9F%E4%BB%A3%E4%BD%9C%E5%AE%B6%E7%A0%94%E7%A9%B6/">🔘晚生代作家研究</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%92%AB%E8%AE%BA%E6%96%87/">💫论文</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/b614fa09.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>一篇从头到尾都由GPT生成的个人网站导览：智慧创作登场：畅游全新博客功能的神奇之旅！</title>
+      <link>http://www.yurenyiyuji.top/posts/83729eb8.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/83729eb8.html</guid>
+      <pubDate>Sun, 20 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;直接开门见山地告诉各位，各位即将阅读的是一篇从头到尾由CHATGPT3.5生成的文章。当然，现在你们看到的序言是我写的。&lt;/p&gt;
+&lt;p&gt;为了避免枯燥和达成目标，我先将博客链接贴在这里：&lt;/p&gt;
+&lt;p&gt;yurenyiyuji.top&lt;/p&gt;
+&lt;p&gt;与之前的Substack一样</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%92%BD%E6%96%B0%E6%A6%82%E5%BF%B5/">💽新概念</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%A5%B3%E7%AB%99%E7%82%B9%E5%AF%BC%E8%A7%88/">🥳站点导览</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%A4%96%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">🤖人工智能</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/83729eb8.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>《金榜题名之后》摘录</title>
+      <link>http://www.yurenyiyuji.top/posts/429a77f8.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/429a77f8.html</guid>
+      <pubDate>Fri, 30 Jun 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;aside&gt;
+💬</description>
+          
+        
+      
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%94%B4%E4%B8%AD%E5%9B%BD%E7%A4%BE%E4%BC%9A%E8%A7%82%E5%AF%9F/">🔴中国社会观察</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E6%95%99%E8%82%B2%E5%85%AC%E5%B9%B3/">教育公平</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/429a77f8.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>《掩饰》摘录</title>
+      <link>http://www.yurenyiyuji.top/posts/f0ca7bb.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/f0ca7bb.html</guid>
+      <pubDate>Tue, 16 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;aside&gt;
+➡️ 摘自：
+[美]吉野贤治著，朱静姝译，《掩饰：同性恋的双重生活及其它》，北京：清华大学出版社，2016年。
+
+&lt;/aside&gt;
+
+&lt;h1 id=&quot;代译序（郭晓飞）&quot;&gt;&lt;a href=&quot;#代译序（郭晓飞）&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8C%87%E6%91%98%E5%BD%95%E7%B0%BF/">🌇摘录簿</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%8D%F0%9F%8F%BB%E7%A0%94%E7%A9%B6%E6%89%8B%E8%AE%B0/">✍🏻研究手记</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%92%EF%B8%8F%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">✒️读书笔记</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%98%AE%EF%B8%8F%E4%BA%9A%E6%96%87%E5%8C%96/">☮️亚文化</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88LGBTQ/">🏳️‍🌈LGBTQ</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/f0ca7bb.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>《掩饰》读后</title>
+      <link>http://www.yurenyiyuji.top/posts/33df53ff.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/33df53ff.html</guid>
+      <pubDate>Thu, 11 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;作为非专业读者，进入并潜行其中的时候如同误入渐欲迷人眼的万花筒，在那些事例、构想与其背后的法理概念面前，自己渐渐产生出一种由失语带来的恐惧，但它就跟其它一切从我口中付诸笔端的类似表述一样，实际上只是一种由紧张和全神贯注的阅读行为生发出的不负责任的夸张的断想。毕竟，在接连到来</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8F%99%EF%B8%8F%E8%AF%84%E8%AE%BA%E9%9B%86/">🏙️评论集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%8D%F0%9F%8F%BB%E7%A0%94%E7%A9%B6%E6%89%8B%E8%AE%B0/">✍🏻研究手记</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%92%EF%B8%8F%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">✒️读书笔记</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%98%AE%EF%B8%8F%E4%BA%9A%E6%96%87%E5%8C%96/">☮️亚文化</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88LGBTQ/">🏳️‍🌈LGBTQ</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/33df53ff.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>呼啸飞驰的列车在接近站台的时刻降低了行驶速度</title>
+      <link>http://www.yurenyiyuji.top/posts/48eb3a81.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/48eb3a81.html</guid>
+      <pubDate>Tue, 09 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8C%AB%EF%B8%8F%E5%91%93%E8%AF%AD%E9%9B%86/">🌫️呓语集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%AB%A7%E5%91%93%E8%AF%AD/">🫧呓语</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/48eb3a81.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>由阴天想到的</title>
+      <link>http://www.yurenyiyuji.top/posts/8f55053d.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/8f55053d.html</guid>
+      <pubDate>Thu, 04 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;我还记得那是与今天一样天气糟糕的一天，温吞软弱的风吹不走笼罩天幕上的阴翳层云与潮湿阻滞的闷热，稍微换一个时节，云与风的力量关系将发生根本性逆转，那是独属于那个城市的特点。&lt;/p&gt;
+&lt;p&gt;当我从过于绵长的午睡中惊醒，双手向后有些费力地支撑起自己陷入麻痹的身体时，能够感到空调出</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8C%AB%EF%B8%8F%E5%91%93%E8%AF%AD%E9%9B%86/">🌫️呓语集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%AB%A7%E5%91%93%E8%AF%AD/">🫧呓语</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/8f55053d.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>致可乐</title>
+      <link>http://www.yurenyiyuji.top/posts/e1f78ac5.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/e1f78ac5.html</guid>
+      <pubDate>Thu, 01 Sep 2022 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;A LETTER TO MY DEAREST&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src= &quot;/img/loading.gif&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8C%83%E9%9A%8F%E6%83%B3%E5%BD%95/">🌃随想录</category>
+      
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/e1f78ac5.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>关于列车鸣笛声及其它</title>
+      <link>http://www.yurenyiyuji.top/posts/28a562f9.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/28a562f9.html</guid>
+      <pubDate>Thu, 25 Aug 2022 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=100% height=86</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8C%AB%EF%B8%8F%E5%91%93%E8%AF%AD%E9%9B%86/">🌫️呓语集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%AB%A7%E5%91%93%E8%AF%AD/">🫧呓语</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/28a562f9.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>民族主义“激情之夜”过后，分享两篇文章</title>
+      <link>http://www.yurenyiyuji.top/posts/2734a756.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/2734a756.html</guid>
+      <pubDate>Mon, 22 Aug 2022 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;又一个民族主义情绪勃然迸发的夜晚。&lt;/p&gt;
+&lt;p&gt;既然浅薄如我并没有什么资格来书写有关民族主义的任何话语，我仍在思考自己是否需要做些什么或者如大多数人那样，暗中观察，默默无闻地让这次高潮成为历史的注脚（似乎，它确实具有某种符合历史建构所需的因素——尤其是将之与以往的诸多高潮</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8C%83%E9%9A%8F%E6%83%B3%E5%BD%95/">🌃随想录</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%94%B4%E4%B8%AD%E5%9B%BD%E7%A4%BE%E4%BC%9A%E8%A7%82%E5%AF%9F/">🔴中国社会观察</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%92%A5%E6%AF%9B%E6%B3%BD%E4%B8%9C%E4%B8%8E%E5%BD%93%E4%BB%A3%E4%B8%AD%E5%9B%BD/">💥毛泽东与当代中国</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/2734a756.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>本该是毕业感想但实在写不出来所以就这样吧</title>
+      <link>http://www.yurenyiyuji.top/posts/4bc430de.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/4bc430de.html</guid>
+      <pubDate>Tue, 05 Jul 2022 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;翻过四月被雨还是什么别的东西淋透的湿漉漉纸页，即刻置身七月炙烤骄阳瓢泼大雨之下，虚弱的我喘息不止。&lt;/p&gt;
+&lt;p&gt;-</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8C%AB%EF%B8%8F%E5%91%93%E8%AF%AD%E9%9B%86/">🌫️呓语集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%AB%A7%E5%91%93%E8%AF%AD/">🫧呓语</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/4bc430de.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>九十年代的学院批评与分裂的世纪末“批评场”</title>
+      <link>http://www.yurenyiyuji.top/posts/462778e5.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/462778e5.html</guid>
+      <pubDate>Fri, 01 Jul 2022 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;【简介】&lt;/strong&gt; &lt;strong&gt;本文为鄙人本科毕业论文第二章第二小节第三部分，本节以当时批评界对“断裂”作家的不同态度，探讨九十年代文学“批评场”的分化状况，并试图为这种现象找寻某种自洽的解释。本节内容较少涉及鄙人原创观</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8E%B4%E8%AE%BA%E6%96%87%E5%86%8C/">🎴论文册</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%8D%F0%9F%8F%BB%E7%A0%94%E7%A9%B6%E6%89%8B%E8%AE%B0/">✍🏻研究手记</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%94%98%E6%99%9A%E7%94%9F%E4%BB%A3%E4%BD%9C%E5%AE%B6%E7%A0%94%E7%A9%B6/">🔘晚生代作家研究</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/462778e5.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>韩东作品摘录</title>
+      <link>http://www.yurenyiyuji.top/posts/e9cc308e.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/e9cc308e.html</guid>
+      <pubDate>Thu, 30 Dec 2021 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;a href=&quot;https://open.spotify.com/track/6M0oCYPWTHmgd7preOB2cq&quot;&gt;https://open.spotify.com/track/6M0oCYPWTHmgd7preOB2cq&lt;/a&gt;&lt;/p&gt;
+&lt;aside&gt;
+➡️</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8C%87%E6%91%98%E5%BD%95%E7%B0%BF/">🌇摘录簿</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%8D%F0%9F%8F%BB%E7%A0%94%E7%A9%B6%E6%89%8B%E8%AE%B0/">✍🏻研究手记</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%94%98%E6%99%9A%E7%94%9F%E4%BB%A3%E4%BD%9C%E5%AE%B6%E7%A0%94%E7%A9%B6/">🔘晚生代作家研究</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%92%EF%B8%8F%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">✒️读书笔记</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/e9cc308e.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>冬夜，一只黑猫打我身边跑过</title>
+      <link>http://www.yurenyiyuji.top/posts/65136149.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/65136149.html</guid>
+      <pubDate>Thu, 23 Dec 2021 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=100% height=86</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8C%AB%EF%B8%8F%E5%91%93%E8%AF%AD%E9%9B%86/">🌫️呓语集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%8C%9F%E7%94%9F%E6%97%A5%E5%89%8D%E8%AE%B0/">🌟生日前记</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%AB%A7%E5%91%93%E8%AF%AD/">🫧呓语</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/65136149.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>《断裂：世纪末的文学事故》读后</title>
+      <link>http://www.yurenyiyuji.top/posts/152c53f0.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/152c53f0.html</guid>
+      <pubDate>Fri, 17 Dec 2021 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;说实话如果不是论文我肯定不会找到这本书，甚至也不会去了解什么晚生代、新生代，命运让我们相连，这是一种神秘，我只能归之于此。&lt;/p&gt;
+&lt;p&gt;韩东说：“现在大家都把穷归于文学，这不对，你穷是因为你整天不干活，钱要去挣才有，它不会从天上掉下来。用稿费来养活自己也是不现实的。”“你</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8F%99%EF%B8%8F%E8%AF%84%E8%AE%BA%E9%9B%86/">🏙️评论集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%8D%F0%9F%8F%BB%E7%A0%94%E7%A9%B6%E6%89%8B%E8%AE%B0/">✍🏻研究手记</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%94%98%E6%99%9A%E7%94%9F%E4%BB%A3%E4%BD%9C%E5%AE%B6%E7%A0%94%E7%A9%B6/">🔘晚生代作家研究</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%92%AB%E8%AE%BA%E6%96%87/">💫论文</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%92%EF%B8%8F%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">✒️读书笔记</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/152c53f0.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>关于毕设不知道会不会用的片段</title>
+      <link>http://www.yurenyiyuji.top/posts/5f685fe0.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/5f685fe0.html</guid>
+      <pubDate>Mon, 06 Dec 2021 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;strong&gt;一个不知道会不会用的片段：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对于一个特定的期刊而言，它既要及时融入整个社会的特定时代的文学思潮之中，亦要与之保持一定程度上的“距离”——或许这是一种悖论，因为很有可能这份期刊就是引领整个潮流的“弄潮儿”。但我个人的意思是，作为</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8F%99%EF%B8%8F%E8%AF%84%E8%AE%BA%E9%9B%86/">🏙️评论集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%8D%F0%9F%8F%BB%E7%A0%94%E7%A9%B6%E6%89%8B%E8%AE%B0/">✍🏻研究手记</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%94%98%E6%99%9A%E7%94%9F%E4%BB%A3%E4%BD%9C%E5%AE%B6%E7%A0%94%E7%A9%B6/">🔘晚生代作家研究</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/5f685fe0.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>记某年某月某日的一次逃亡</title>
+      <link>http://www.yurenyiyuji.top/posts/1f7480c2.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/1f7480c2.html</guid>
+      <pubDate>Sun, 05 Dec 2021 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;在我回过神来的时候，四野已经变得陌生无比。难以辨明的微光在远处闪烁，身处属于夜的领域，我没办法对它有所违抗。&lt;/p&gt;
+&lt;p&gt;一阵轰鸣声不由分说挤进耳来，打破无人声的沉寂。绿皮车，亮着灯，在我转身回看的瞬间驶过。一阵明一阵暗，速度不快，持续了好一阵。&lt;/p&gt;
+&lt;p&gt;刚刚准备开</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8C%AB%EF%B8%8F%E5%91%93%E8%AF%AD%E9%9B%86/">🌫️呓语集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%AB%A7%E5%91%93%E8%AF%AD/">🫧呓语</category>
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%F0%9F%AA%84%E5%B0%8F%E8%AF%B4/">🪄小说</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/1f7480c2.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>回不去的余华——《文城》读后</title>
+      <link>http://www.yurenyiyuji.top/posts/9cebe210.html</link>
+      <guid>http://www.yurenyiyuji.top/posts/9cebe210.html</guid>
+      <pubDate>Mon, 15 Nov 2021 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;拿余华作为复健计划的第一本，实在有些令人焦虑。毕竟是复健，话能不能说囫囵、能不能比作编辑之前有所提升是个挑战，更别说我还没读过《第七日》《兄弟》这些较近的余华小说。如果可能的话，之后会联系起来谈吧。&lt;/p&gt;
+&lt;p&gt;回到这本书，即便是第一时间购入，阅读时间也被我拉得很长：前二</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://www.yurenyiyuji.top/categories/%F0%9F%8F%99%EF%B8%8F%E8%AF%84%E8%AE%BA%E9%9B%86/">🏙️评论集</category>
+      
+      
+      <category domain="http://www.yurenyiyuji.top/tags/%E2%9C%92%EF%B8%8F%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">✒️读书笔记</category>
+      
+      
+      <comments>http://www.yurenyiyuji.top/posts/9cebe210.html#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
