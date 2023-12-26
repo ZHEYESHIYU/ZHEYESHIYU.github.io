@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.yurenyiyuji.top/tags/index.html</loc>
+    
+    <lastmod>2023-12-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.yurenyiyuji.top/wechatOA/index.html</loc>
     
     <lastmod>2023-12-26</lastmod>
@@ -266,15 +275,6 @@
     <loc>http://www.yurenyiyuji.top/photos/%E6%98%8C%E5%BA%90/index.html</loc>
     
     <lastmod>2023-10-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.yurenyiyuji.top/tags/index.html</loc>
-    
-    <lastmod>2023-10-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -956,15 +956,6 @@
   </url>
   
   <url>
-    <loc>http://www.yurenyiyuji.top/posts/3c47b44b.html</loc>
-    
-    <lastmod>2019-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.yurenyiyuji.top/posts/5ea739e8.html</loc>
     
     <lastmod>2019-05-25</lastmod>
@@ -1449,13 +1440,6 @@
   </url>
   
   <url>
-    <loc>http://www.yurenyiyuji.top/categories/%F0%9F%8C%83%E9%9A%8F%E6%83%B3%E5%BD%95/</loc>
-    <lastmod>2023-12-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.yurenyiyuji.top/categories/%F0%9F%8F%99%EF%B8%8F%E8%AF%84%E8%AE%BA%E9%9B%86/</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -1471,6 +1455,13 @@
   
   <url>
     <loc>http://www.yurenyiyuji.top/categories/%F0%9F%92%BD%E6%96%B0%E6%A6%82%E5%BF%B5/</loc>
+    <lastmod>2023-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.yurenyiyuji.top/categories/%F0%9F%8C%83%E9%9A%8F%E6%83%B3%E5%BD%95/</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
