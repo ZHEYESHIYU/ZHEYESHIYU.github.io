@@ -1,0 +1,86 @@
+/* FontAwesome 图标修复 */
+.fas, .far, .fab, .fal, .fad {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro", "Font Awesome 6 Brands";
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fas {
+  font-weight: 900;
+}
+
+.far {
+  font-weight: 400;
+}
+
+.fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+
+/* 确保图标在菜单中正确显示 */
+#nav .site-page .fas,
+#nav .site-page .far,
+#nav .site-page .fab {
+  margin-right: 5px;
+  width: 16px;
+  text-align: center;
+}
+
+/* 社交图标修复 */
+.social-icon .fas,
+.social-icon .far,
+.social-icon .fab {
+  font-size: 1.2em;
+  margin-right: 8px;
+}
+
+/* 侧边栏图标修复 */
+.card-info .card-info-social-icons .social-icon .fas,
+.card-info .card-info-social-icons .social-icon .far,
+.card-info .card-info-social-icons .social-icon .fab {
+  font-size: 1.1em;
+}
+
+/* 确保图标在加载时可见 */
+.fa,
+.fas,
+.far,
+.fab,
+.fal,
+.fad {
+  display: inline-block !important;
+  opacity: 1 !important;
+}
+
+/* 修复可能的图标不显示问题 */
+[class*="fa-"]:before {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro", "Font Awesome 6 Brands" !important;
+}
+
+/* 备用图标字体 */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-solid-900.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-regular-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-brands-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
